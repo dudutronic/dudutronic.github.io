@@ -9,12 +9,15 @@ salvar uma cópia em PDF.
 
 ## Projetos em destaque
 
-Os três projetos continuam apresentados na página, com detalhes técnicos,
-frameworks e formatos dos relatórios. Os repositórios e suas esteiras são
-privados; acesso ao código e execução da CI são concedidos pelo titular mediante
-convite. O portfólio não contém credenciais nem links para clonar os projetos.
+Qualquer visitante pode explorar o escopo, frameworks, configurações, cobertura
+e formatos dos relatórios no próprio portfólio. Os repositórios, as execuções da
+CI e os artefatos brutos permanecem privados. O site não concede acesso de
+leitura aos repositórios: no GitHub, esse nível de permissão também permite
+clonar o código. É possível solicitar uma demonstração guiada sem acesso ao
+código-fonte. Nenhuma credencial é exibida.
 
-Para solicitar acesso, entre em contato por <mailto:dudutronic@gmail.com>.
+Para solicitar uma demonstração guiada, entre em contato por
+<mailto:dudutronic@gmail.com>.
 
 **Idiomas desta página:** [Português](README.md) · [English](README.en.md) · [Español](README.es.md)
 

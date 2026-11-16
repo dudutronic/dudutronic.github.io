@@ -8,12 +8,15 @@ La página `resume.html` muestra el currículum completo, sigue el idioma selecc
 
 ## Proyectos destacados
 
-Los tres proyectos siguen presentados en el portafolio con detalles técnicos,
-frameworks y formatos de informes. Los repositorios y sus workflows son
-privados; el titular concede mediante invitación el acceso al código y los
-permisos de CI. El portafolio no contiene credenciales ni enlaces para clonar.
+Cualquier visitante puede consultar en el portafolio el alcance, los
+frameworks, las configuraciones, la cobertura y los formatos de los informes.
+Los repositorios, las ejecuciones de CI y los artefactos originales permanecen
+privados. El sitio no concede acceso de lectura a los repositorios: en GitHub,
+ese permiso también permite clonar el código. Se puede solicitar una
+demostración guiada sin acceso al código fuente. No se muestran credenciales.
 
-Para solicitar acceso, contacta con <mailto:dudutronic@gmail.com>.
+Para solicitar una demostración guiada, contacta con
+<mailto:dudutronic@gmail.com>.
 
 ## Vista previa local
 

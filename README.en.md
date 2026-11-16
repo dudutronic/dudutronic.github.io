@@ -8,9 +8,9 @@ The `resume.html` page presents the full resume, follows the selected site langu
 
 ## Featured projects
 
-All three projects remain showcased on the portfolio with technical details, frameworks and report formats. Their repositories and workflows are private; the owner grants source access and CI permissions by invitation. The portfolio contains no credentials or clone links.
+Anyone can explore each suite's scope, frameworks, configuration, coverage, and report formats on the portfolio. The repositories, CI runs, and raw artifacts remain private. The site does not grant repository read access: on GitHub, that permission also allows cloning. Visitors can request a guided walkthrough without source access. No credentials are shown.
 
-To request access, contact <mailto:dudutronic@gmail.com>.
+To request a guided walkthrough, contact <mailto:dudutronic@gmail.com>.
 
 ## Local preview
 

@@ -806,20 +806,6 @@ main,
   font-weight: 600;
 }
 
-.config-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  margin-top: 12px;
-  color: #c5d994;
-  font-size: 9px;
-  font-weight: 600;
-}
-
-.config-link:hover {
-  color: var(--accent);
-}
-
 .project-link {
   display: inline-flex;
   align-items: center;
