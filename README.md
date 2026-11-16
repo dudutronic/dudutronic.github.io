@@ -10,6 +10,9 @@ dos projetos Playwright/BDD e Cypress.
   Cucumber/Gherkin, execução isolada, evidências e CI.
 - [Musi Cypress E2E](https://github.com/dudutronic/musica-ae-qa-cypress):
   validação de fluxos, responsividade, evidências e CI.
+- [Musi Robot HTTP Smoke](https://github.com/dudutronic/musica-ae-qa-robot-api):
+  smoke HTTP somente de leitura em rotas públicas, com Robot Framework,
+  RequestsLibrary e CI. O escopo não presume uma API JSON não documentada.
 
 ## Publicação no GitHub Pages
 

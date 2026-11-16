@@ -153,6 +153,16 @@
             <h3>Falhas investigáveis</h3>
             <p>Relatórios, screenshots, vídeos e artefatos ajudam a entender resultados.</p>
           </article>
+          <article class="competency-card">
+            <span class="competency-index">07 / BACK-END HTTP</span>
+            <h3>Validação de serviços</h3>
+            <p>Requests de leitura verificam status, tipo de conteúdo e resposta das rotas públicas.</p>
+          </article>
+          <article class="competency-card">
+            <span class="competency-index">08 / KEYWORD-DRIVEN</span>
+            <h3>Robot Framework</h3>
+            <p>Keywords reutilizáveis e RequestsLibrary organizados em resources no padrão Page Object.</p>
+          </article>
         </div>
       </section>
 
@@ -271,7 +281,60 @@
             </div>
           </div>
         </article>
-        <p class="project-note">Projetos independentes, com execução e integração contínua próprias.</p>
+        <article class="project-card project-card-robot">
+          <div class="project-main">
+            <div class="project-topline">
+              <span class="project-category">BACK-END HTTP · ROBOT FRAMEWORK</span>
+              <span class="project-stars" aria-label="Repositório pessoal">↗ PESSOAL</span>
+            </div>
+            <h3>Musi Robot HTTP Smoke</h3>
+            <p class="project-description">
+              Uma terceira suíte que valida, por HTTP e sem alterar dados, a
+              disponibilidade e o conteúdo das rotas públicas de login e
+              cadastro. Complementa os testes de interface com uma checagem
+              direta das respostas do servidor.
+            </p>
+            <div class="project-tags" aria-label="Tecnologias do projeto Robot Framework">
+              <span>Python</span>
+              <span>Robot Framework</span>
+              <span>RequestsLibrary</span>
+              <span>GitHub Actions</span>
+            </div>
+            <div class="framework-config">
+              <p class="config-heading">COMO O ROBOT FRAMEWORK FOI CONFIGURADO</p>
+              <ul>
+                <li><strong>Page Object para HTTP:</strong> um resource reutilizável encapsula sessão, rotas e validações.</li>
+                <li><strong>RequestsLibrary:</strong> confere status HTTP, tipo HTML e título esperado das páginas públicas.</li>
+                <li><strong>Execução segura:</strong> somente GET em /login e /register; sem login, POST ou criação de dados.</li>
+                <li><strong>GitHub Actions:</strong> Python 3.13, dependências fixadas e relatórios Robot publicados como artefatos.</li>
+              </ul>
+              <a class="config-link" href="https://github.com/dudutronic/musica-ae-qa-robot-api/actions" target="_blank" rel="noreferrer">Ver execuções da esteira <span aria-hidden="true">↗</span></a>
+            </div>
+            <a
+              class="project-link"
+              href="https://github.com/dudutronic/musica-ae-qa-robot-api"
+              target="_blank"
+              rel="noreferrer"
+            >Explorar projeto Robot Framework <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="project-aside">
+            <p class="aside-label">SMOKE HTTP SOMENTE LEITURA</p>
+            <div class="project-stat">
+              <strong>2</strong>
+              <span>rotas<br>públicas</span>
+            </div>
+            <div class="project-stat">
+              <strong>2</strong>
+              <span>testes<br>automatizados</span>
+            </div>
+            <div class="project-stat">
+              <strong>0</strong>
+              <span>alterações<br>de dados</span>
+            </div>
+          </div>
+        </article>
+        <p class="project-note">As três suítes têm execução própria. O Robot valida páginas HTML públicas por GET; nenhum contrato de API JSON é presumido.</p>
       </section>
 
       <section class="contact section-shell" id="contato" aria-labelledby="contact-title">
