@@ -2,6 +2,8 @@
 
 Static personal website built with HTML, CSS and JavaScript. It presents QA and automation skills, setup details for Playwright/BDD, Cypress and Robot Framework, and a Portuguese/English/Spanish language selector.
 
+The `resume.html` page presents the full resume, follows the selected site language, and can be printed or saved as a PDF.
+
 **Languages for this page:** [Português](README.md) · [English](README.en.md) · [Español](README.es.md)
 
 ## Featured projects

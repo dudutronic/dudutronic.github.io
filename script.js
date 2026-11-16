@@ -9,6 +9,7 @@ const translations = {
     navAbout: "Sobre",
     navSkills: "Competências",
     navProjects: "Projetos",
+    navResume: "Currículo",
     navContact: "Vamos conversar",
     languageLabel: "Selecionar idioma",
     openMenu: "Abrir menu",
@@ -105,7 +106,69 @@ const translations = {
     contactEyebrow: "TEM UM PROJETO EM MENTE?",
     contactTitle: "Vamos fazer algo<br><span>bem feito.</span>",
     contactLink: "Encontre-me no GitHub",
-    footerNote: "Feito com cuidado e bons testes."
+    footerNote: "Feito com cuidado e bons testes.",
+    resumePageTitle: "Currículo — Eduardo Souza | QA & Automação",
+    resumeMeta: "Experiência profissional, formação, competências e projetos de Eduardo Henrique Nilo de Souza.",
+    resumeLabel: "CURRÍCULO",
+    resumeName: "Eduardo Henrique Nilo de Souza",
+    resumeRole: "Analista de Qualidade Sênior · Automação de Testes",
+    resumePrint: "Imprimir / Salvar em PDF",
+    resumeContact: "CONTATO",
+    resumeLocation: "Recife, Pernambuco, Brasil",
+    resumeSummaryTitle: "Resumo profissional",
+    resumeSummary: "Analista de Qualidade Sênior com mais de cinco anos de experiência em QA e automação de testes para aplicações mobile, API e web. Desde 2018, atua em projetos de grande porte nos setores financeiro, saúde digital, seguros e mobilidade. Especialista em automação com Playwright, Robot Framework, Appium e Python; integração CI/CD com GitHub Actions e Jira/Xray; e uso de agentes Copilot e Cloud AI para otimizar cenários, documentação e produtividade. Experiência também em testes de API, análise de vulnerabilidades e monitoramento. Reconhecido por estruturar áreas de QA, promover qualidade e melhoria contínua e capacitar equipes.",
+    resumeExperience: "Experiência profissional",
+    resumePresent: "Atual",
+    resumeNttDate: "Dez/2024 – Atual",
+    resumeSpreadDate: "Abr/2024 – Dez/2024",
+    resumeVittaDate: "Mar/2021 – Mar/2024",
+    resumeEducationDate: "Jan/2020 – Jun/2022",
+    resumeNttRole: "Analista de Automação Sênior",
+    resumeNttCompany: "NTT DATA · Bradesco, Serasa Experian e Itaú",
+    resumeNtt1: "Desenvolvimento de automações web com Playwright para aumentar a eficiência dos processos de teste.",
+    resumeNtt2: "Implementação de agentes Copilot e Cloud AI para geração de cenários, documentação inteligente e produtividade.",
+    resumeNtt3: "Integração em pipelines CI/CD com GitHub Actions e Jira/Xray, habilitando execução remota e gestão contínua de regressão.",
+    resumeNtt4: "Automação de testes mobile com Robot Framework e Python em device farm/lab, cobrindo múltiplas plataformas.",
+    resumeNtt5: "Testes de back-end e API com Insomnia e Postman; estruturação de automação, análise de vulnerabilidades com Veracode e monitoramento com Datadog.",
+    resumeNtt6: "Apoio à migração de repositórios de Bitbucket para GitHub, automação regressiva e migração de sistemas.",
+    resumeSpreadRole: "Analista de Qualidade Sênior",
+    resumeSpreadCompany: "Spread · Caixa Econômica Federal",
+    resumeSpread1: "Implementação e atualização do aplicativo financeiro Caixa+ com foco em Open Finance.",
+    resumeSpread2: "Criação de scripts e cenários de teste orientados por regras de negócio.",
+    resumeSpread3: "Testes mobile Android/iOS, API com Postman, funcionais, exploratórios e regressivos.",
+    resumeSpread4: "Documentação de cenários BDD e evidências.",
+    resumeVittaRole: "Analista de Qualidade Sênior",
+    resumeVittaCompany: "Vitta Saúde · Stone",
+    resumeVitta1: "Estruturação da área de qualidade do zero e adoção de BDD/Gherkin como prática padrão.",
+    resumeVitta2: "Treinamento de profissionais de produto e desenvolvimento em QA.",
+    resumeVitta3: "Automação mobile com Robot Framework, Appium e Python.",
+    resumeVitta4: "Gestão de testes e evidências com Jira, Bitbucket, Git, Confluence e Qase.",
+    resumeGrooveRole: "Analista de Qualidade Sênior",
+    resumeGrooveCompany: "Groovetech · CS Brasil, Vamos Frotas, Bimbo, MC1 Brasil e MC1 Colômbia",
+    resumeGrooveDate: "Ago/2020 – Mar/2021",
+    resumeGroove1: "Criação de scripts e cenários BDD com base em regras de negócio.",
+    resumeGroove2: "Testes caixa-preta, funcionais, exploratórios, manuais e regressivos.",
+    resumeGroove3: "Testes de estresse e testes funcionais isolados com JMeter.",
+    resumeGroove4: "Automação web/mobile com framework interno, Appium e Android Studio.",
+    resumeAccentureRole: "Analista de Qualidade Júnior",
+    resumeAccentureCompany: "Accenture · Itaú Auto 2.0",
+    resumeAccenture1: "Planejamento e criação de scripts para validar funcionalidades solicitadas pelo cliente.",
+    resumeAccenture2: "Testes exploratórios e identificação de falhas em contexto ágil.",
+    resumeAccenture3: "Atuação com Java, HTML5, CSS, JUnit, Cucumber, Selenium, Jira e Kanban.",
+    resumeAccenture4: "Participação em pipelines CI/CD para aumentar a confiabilidade das releases.",
+    resumeEducation: "Formação acadêmica",
+    resumeDegree: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+    resumeSchool: "Faculdade Alpha do Recife",
+    resumePersonalProjects: "Projeto pessoal",
+    resumeMusiTitle: "Musi Ae · Automação de testes",
+    resumeMusiDescription: "Projeto de automação para uma plataforma digital de música e cultura brasileira, com geração de cenários e documentação apoiada por IA, CI/CD no GitHub Actions e relatórios automatizados para acompanhar resultados e métricas de qualidade.",
+    resumeSkills: "Competências e ferramentas",
+    resumeLanguages: "Idiomas",
+    resumePortuguese: "Português",
+    resumeEnglish: "Inglês",
+    resumeLanguageNote: "O currículo original não informa níveis de proficiência.",
+    resumeBack: "Voltar ao portfólio",
+    resumePrintHint: "Dica: na janela de impressão, escolha “Salvar como PDF” para guardar uma cópia."
   },
   en: {
     lang: "en",
@@ -117,6 +180,7 @@ const translations = {
     navAbout: "About",
     navSkills: "Skills",
     navProjects: "Projects",
+    navResume: "Resume",
     navContact: "Let's talk",
     languageLabel: "Select language",
     openMenu: "Open menu",
@@ -213,7 +277,69 @@ const translations = {
     contactEyebrow: "HAVE A PROJECT IN MIND?",
     contactTitle: "Let's build something<br><span>great.</span>",
     contactLink: "Find me on GitHub",
-    footerNote: "Built with care and good tests."
+    footerNote: "Built with care and good tests.",
+    resumePageTitle: "Resume — Eduardo Souza | QA & Test Automation",
+    resumeMeta: "Professional experience, education, skills and projects of Eduardo Henrique Nilo de Souza.",
+    resumeLabel: "RESUME",
+    resumeName: "Eduardo Henrique Nilo de Souza",
+    resumeRole: "Senior QA Analyst · Test Automation",
+    resumePrint: "Print / Save as PDF",
+    resumeContact: "CONTACT",
+    resumeLocation: "Recife, Pernambuco, Brazil",
+    resumeSummaryTitle: "Professional summary",
+    resumeSummary: "Senior QA Analyst with over five years of experience in quality assurance and test automation for mobile, API and web applications. Since 2018, has contributed to large-scale projects in financial services, digital health, insurance and mobility. Specializes in automation with Playwright, Robot Framework, Appium and Python; CI/CD integration with GitHub Actions and Jira/Xray; and the use of Copilot and Cloud AI agents to improve scenarios, documentation and productivity. Also experienced in API testing, vulnerability analysis and monitoring. Recognized for building QA practices, fostering quality and continuous improvement, and training teams.",
+    resumeExperience: "Professional experience",
+    resumePresent: "Present",
+    resumeNttDate: "Dec 2024 – Present",
+    resumeSpreadDate: "Apr 2024 – Dec 2024",
+    resumeVittaDate: "Mar 2021 – Mar 2024",
+    resumeEducationDate: "Jan 2020 – Jun 2022",
+    resumeNttRole: "Senior Automation Analyst",
+    resumeNttCompany: "NTT DATA · Bradesco, Serasa Experian and Itaú",
+    resumeNtt1: "Develops web test automation with Playwright to improve testing efficiency.",
+    resumeNtt2: "Implements Copilot and Cloud AI agents for scenario generation, intelligent documentation and productivity.",
+    resumeNtt3: "Integrates tests into CI/CD pipelines with GitHub Actions and Jira/Xray, enabling remote execution and ongoing regression management.",
+    resumeNtt4: "Automates mobile tests with Robot Framework and Python in a device farm/lab across multiple platforms.",
+    resumeNtt5: "Tests back-end services and APIs with Insomnia and Postman; structures API automation, vulnerability analysis with Veracode and monitoring with Datadog.",
+    resumeNtt6: "Supports repository migration from Bitbucket to GitHub, regression automation and system migration.",
+    resumeSpreadRole: "Senior QA Analyst",
+    resumeSpreadCompany: "Spread · Caixa Econômica Federal",
+    resumeSpread1: "Implemented and updated the Caixa+ financial app, with a focus on Open Finance.",
+    resumeSpread2: "Created test scripts and scenarios based on business rules.",
+    resumeSpread3: "Performed Android/iOS mobile, Postman API, functional, exploratory and regression testing.",
+    resumeSpread4: "Documented BDD scenarios and test evidence.",
+    resumeVittaRole: "Senior QA Analyst",
+    resumeVittaCompany: "Vitta Saúde · Stone",
+    resumeVitta1: "Built the quality function from the ground up and introduced BDD/Gherkin as a standard practice.",
+    resumeVitta2: "Trained product managers and developers in QA.",
+    resumeVitta3: "Automated mobile tests with Robot Framework, Appium and Python.",
+    resumeVitta4: "Managed tests and evidence with Jira, Bitbucket, Git, Confluence and Qase.",
+    resumeGrooveRole: "Senior QA Analyst",
+    resumeGrooveCompany: "Groovetech · CS Brasil, Vamos Frotas, Bimbo, MC1 Brazil and MC1 Colombia",
+    resumeGrooveDate: "Aug 2020 – Mar 2021",
+    resumeGroove1: "Created BDD scripts and scenarios based on business rules.",
+    resumeGroove2: "Performed black-box, functional, exploratory, manual and regression testing.",
+    resumeGroove3: "Used JMeter for stress testing and isolated functional tests.",
+    resumeGroove4: "Automated web/mobile tests with an internal framework, Appium and Android Studio.",
+    resumeAccentureRole: "Junior QA Analyst",
+    resumeAccentureCompany: "Accenture · Itaú Auto 2.0",
+    resumeAccenture1: "Planned and created test scripts to validate client-requested functionality.",
+    resumeAccenture2: "Performed exploratory testing and identified defects in an Agile environment.",
+    resumeAccenture3: "Worked with Java, HTML5, CSS, JUnit, Cucumber, Selenium, Jira and Kanban.",
+    resumeAccenture4: "Contributed to CI/CD pipelines to improve release reliability.",
+    resumeEducation: "Education",
+    resumeDegree: "Associate degree in Systems Analysis and Development",
+    resumeSchool: "Faculdade Alpha do Recife",
+    resumePersonalProjects: "Personal project",
+    resumeMusiTitle: "Musi Ae · Test automation",
+    resumeMusiDescription: "Test automation project for a digital platform focused on Brazilian music and culture, using AI-assisted scenario generation and documentation, GitHub Actions CI/CD, and automated reports to track results and quality metrics.",
+    resumeSkills: "Skills and tools",
+    resumeLanguages: "Languages",
+    resumePortuguese: "Portuguese",
+    resumeEnglish: "English",
+    resumeLanguageNote: "The source resume does not specify proficiency levels.",
+    resumeBack: "Back to portfolio",
+    resumePrintHint: "Tip: choose “Save as PDF” in the print dialog to keep a copy."
   },
   es: {
     lang: "es",
@@ -225,6 +351,7 @@ const translations = {
     navAbout: "Sobre mí",
     navSkills: "Competencias",
     navProjects: "Proyectos",
+    navResume: "Currículum",
     navContact: "Hablemos",
     languageLabel: "Seleccionar idioma",
     openMenu: "Abrir menú",
@@ -321,7 +448,69 @@ const translations = {
     contactEyebrow: "¿TIENES UN PROYECTO EN MENTE?",
     contactTitle: "Hagamos algo<br><span>bien hecho.</span>",
     contactLink: "Encuéntrame en GitHub",
-    footerNote: "Hecho con cuidado y buenas pruebas."
+    footerNote: "Hecho con cuidado y buenas pruebas.",
+    resumePageTitle: "Currículum — Eduardo Souza | QA y Automatización",
+    resumeMeta: "Experiencia profesional, formación, competencias y proyectos de Eduardo Henrique Nilo de Souza.",
+    resumeLabel: "CURRÍCULUM",
+    resumeName: "Eduardo Henrique Nilo de Souza",
+    resumeRole: "Analista de Calidad Sénior · Automatización de Pruebas",
+    resumePrint: "Imprimir / Guardar como PDF",
+    resumeContact: "CONTACTO",
+    resumeLocation: "Recife, Pernambuco, Brasil",
+    resumeSummaryTitle: "Perfil profesional",
+    resumeSummary: "Analista de Calidad Sénior con más de cinco años de experiencia en QA y automatización de pruebas para aplicaciones móviles, API y web. Desde 2018, participa en proyectos de gran escala en los sectores financiero, salud digital, seguros y movilidad. Especializado en automatización con Playwright, Robot Framework, Appium y Python; integración CI/CD con GitHub Actions y Jira/Xray; y uso de agentes Copilot y Cloud AI para optimizar escenarios, documentación y productividad. También cuenta con experiencia en pruebas de API, análisis de vulnerabilidades y monitorización. Reconocido por crear áreas de QA, impulsar la calidad y la mejora continua, y capacitar equipos.",
+    resumeExperience: "Experiencia profesional",
+    resumePresent: "Actualidad",
+    resumeNttDate: "Dic/2024 – Actualidad",
+    resumeSpreadDate: "Abr/2024 – Dic/2024",
+    resumeVittaDate: "Mar/2021 – Mar/2024",
+    resumeEducationDate: "Ene/2020 – Jun/2022",
+    resumeNttRole: "Analista Sénior de Automatización",
+    resumeNttCompany: "NTT DATA · Bradesco, Serasa Experian e Itaú",
+    resumeNtt1: "Desarrollo de automatización web con Playwright para mejorar la eficiencia de las pruebas.",
+    resumeNtt2: "Implementación de agentes Copilot y Cloud AI para generar escenarios, crear documentación inteligente y aumentar la productividad.",
+    resumeNtt3: "Integración en pipelines CI/CD con GitHub Actions y Jira/Xray, habilitando ejecución remota y gestión continua de regresión.",
+    resumeNtt4: "Automatización móvil con Robot Framework y Python en una device farm/lab para varias plataformas.",
+    resumeNtt5: "Pruebas de back-end y API con Insomnia y Postman; automatización de API, análisis de vulnerabilidades con Veracode y monitorización con Datadog.",
+    resumeNtt6: "Apoyo en la migración de repositorios de Bitbucket a GitHub, automatización de regresión y migración de sistemas.",
+    resumeSpreadRole: "Analista de Calidad Sénior",
+    resumeSpreadCompany: "Spread · Caixa Econômica Federal",
+    resumeSpread1: "Implementación y actualización de la aplicación financiera Caixa+, con foco en Open Finance.",
+    resumeSpread2: "Creación de scripts y escenarios de prueba basados en reglas de negocio.",
+    resumeSpread3: "Pruebas móviles Android/iOS, API con Postman, funcionales, exploratorias y de regresión.",
+    resumeSpread4: "Documentación de escenarios BDD y evidencias.",
+    resumeVittaRole: "Analista de Calidad Sénior",
+    resumeVittaCompany: "Vitta Saúde · Stone",
+    resumeVitta1: "Creación del área de calidad desde cero e incorporación de BDD/Gherkin como práctica estándar.",
+    resumeVitta2: "Formación en QA para profesionales de producto y desarrollo.",
+    resumeVitta3: "Automatización móvil con Robot Framework, Appium y Python.",
+    resumeVitta4: "Gestión de pruebas y evidencias con Jira, Bitbucket, Git, Confluence y Qase.",
+    resumeGrooveRole: "Analista de Calidad Sénior",
+    resumeGrooveCompany: "Groovetech · CS Brasil, Vamos Frotas, Bimbo, MC1 Brasil y MC1 Colombia",
+    resumeGrooveDate: "Ago/2020 – Mar/2021",
+    resumeGroove1: "Creación de scripts y escenarios BDD según reglas de negocio.",
+    resumeGroove2: "Pruebas de caja negra, funcionales, exploratorias, manuales y de regresión.",
+    resumeGroove3: "Pruebas de estrés y pruebas funcionales aisladas con JMeter.",
+    resumeGroove4: "Automatización web/móvil con framework interno, Appium y Android Studio.",
+    resumeAccentureRole: "Analista de Calidad Júnior",
+    resumeAccentureCompany: "Accenture · Itaú Auto 2.0",
+    resumeAccenture1: "Planificación y creación de scripts para validar funcionalidades solicitadas por el cliente.",
+    resumeAccenture2: "Pruebas exploratorias e identificación de fallos en un contexto ágil.",
+    resumeAccenture3: "Experiencia con Java, HTML5, CSS, JUnit, Cucumber, Selenium, Jira y Kanban.",
+    resumeAccenture4: "Participación en pipelines CI/CD para aumentar la fiabilidad de las versiones.",
+    resumeEducation: "Formación académica",
+    resumeDegree: "Tecnólogo en Análisis y Desarrollo de Sistemas",
+    resumeSchool: "Faculdade Alpha do Recife",
+    resumePersonalProjects: "Proyecto personal",
+    resumeMusiTitle: "Musi Ae · Automatización de pruebas",
+    resumeMusiDescription: "Proyecto de automatización para una plataforma digital de música y cultura brasileña, con generación de escenarios y documentación asistida por IA, CI/CD en GitHub Actions e informes automatizados para seguir resultados y métricas de calidad.",
+    resumeSkills: "Competencias y herramientas",
+    resumeLanguages: "Idiomas",
+    resumePortuguese: "Portugués",
+    resumeEnglish: "Inglés",
+    resumeLanguageNote: "El currículum original no especifica niveles de dominio.",
+    resumeBack: "Volver al portafolio",
+    resumePrintHint: "Consejo: elige “Guardar como PDF” en el diálogo de impresión para conservar una copia."
   }
 };
 
@@ -333,8 +522,9 @@ function setLanguage(language) {
   const copy = translations[selected];
 
   document.documentElement.lang = copy.lang;
-  document.title = copy.title;
-  document.querySelector('meta[name="description"]').content = copy.description;
+  const isResumePage = document.body.dataset.page === "resume";
+  document.title = isResumePage ? copy.resumePageTitle : copy.title;
+  document.querySelector('meta[name="description"]').content = isResumePage ? copy.resumeMeta : copy.description;
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const value = copy[element.dataset.i18n];
@@ -363,6 +553,8 @@ function setLanguage(language) {
   localStorage.setItem("portfolio-language", selected);
 }
 
+document.querySelector("[data-print]")?.addEventListener("click", () => window.print());
+
 if (menuButton && navigationLinks) {
   menuButton.addEventListener("click", () => {
     const isExpanded = menuButton.getAttribute("aria-expanded") === "true";
@@ -373,7 +565,7 @@ if (menuButton && navigationLinks) {
   });
 
   navigationLinks.addEventListener("click", (event) => {
-    if (event.target instanceof HTMLAnchorElement) {
+    if (event.target instanceof Element && event.target.closest("a")) {
       const language = document.documentElement.lang.slice(0, 2);
       menuButton.setAttribute("aria-expanded", "false");
       menuButton.setAttribute("aria-label", translations[language].openMenu);
@@ -385,7 +577,7 @@ if (menuButton && navigationLinks) {
 document.querySelectorAll("[data-language]").forEach((button) => {
   button.addEventListener("click", () => {
     setLanguage(button.dataset.language);
-    if (menuButton && navigationLinks && window.matchMedia("(max-width: 560px)").matches) {
+    if (menuButton && navigationLinks && window.matchMedia("(max-width: 760px)").matches) {
       menuButton.setAttribute("aria-expanded", "false");
       menuButton.setAttribute("aria-label", translations[button.dataset.language].openMenu);
       navigationLinks.classList.remove("is-open");

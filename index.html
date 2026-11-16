@@ -16,8 +16,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="styles.css?v=stickers-v1">
-    <script src="script.js?v=a564b62" defer></script>
+    <link rel="stylesheet" href="styles.css?v=resume-v2">
+    <script src="script.js?v=resume-v2" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#conteudo" data-i18n="skip">Pular para o conteúdo</a>
@@ -28,26 +28,29 @@
           <span class="wordmark-mark" aria-hidden="true">e<span>.</span></span>
           <span class="wordmark-name">Eduardo Souza</span>
         </a>
-        <button
-          class="menu-toggle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="navigation-links"
-          aria-label="Abrir menu"
-        >
-          <span></span>
-          <span></span>
-        </button>
         <div class="navigation-links" id="navigation-links">
           <a href="#sobre" data-i18n="navAbout">Sobre</a>
           <a href="#competencias" data-i18n="navSkills">Competências</a>
           <a href="#projetos" data-i18n="navProjects">Projetos</a>
+          <a class="nav-resume" href="resume.html" data-i18n="navResume">Currículo</a>
           <a class="nav-contact" href="#contato"><span data-i18n="navContact">Vamos conversar</span> <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="header-controls">
           <div class="language-picker" role="group" aria-label="Selecionar idioma" data-i18n-aria="languageLabel">
             <button type="button" lang="pt-BR" data-language="pt" aria-pressed="true">PT</button>
             <button type="button" lang="en" data-language="en" aria-pressed="false">EN</button>
             <button type="button" lang="es" data-language="es" aria-pressed="false">ES</button>
           </div>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="navigation-links"
+            aria-label="Abrir menu"
+          >
+            <span></span>
+            <span></span>
+          </button>
         </div>
       </nav>
     </header>

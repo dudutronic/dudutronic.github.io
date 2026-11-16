@@ -2,6 +2,8 @@
 
 Sitio personal estático creado con HTML, CSS y JavaScript. Presenta competencias de QA y automatización, configuración de Playwright/BDD, Cypress y Robot Framework, y un selector de portugués, inglés y español.
 
+La página `resume.html` muestra el currículum completo, sigue el idioma seleccionado y permite imprimirlo o guardarlo como PDF.
+
 **Idiomas de esta página:** [Português](README.md) · [English](README.en.md) · [Español](README.es.md)
 
 ## Proyectos destacados

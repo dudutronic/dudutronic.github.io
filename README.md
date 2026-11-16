@@ -3,7 +3,9 @@
 Site pessoal estático em HTML, CSS e JavaScript, sem dependências de build. O
 portfólio apresenta competências de QA e automação, com detalhes de configuração
 dos projetos Playwright/BDD, Cypress e Robot Framework. A interface pode ser
-alternada entre português, inglês e espanhol.
+alternada entre português, inglês e espanhol. A página `resume.html` apresenta
+o currículo completo, acompanha o idioma selecionado e permite imprimir ou
+salvar uma cópia em PDF.
 
 ## Projetos em destaque
 
