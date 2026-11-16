@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Portfólio de Eduardo Souza: qualidade de software, automação de testes e desenvolvimento de soluções confiáveis."
+    >
+    <meta name="theme-color" content="#111210">
+    <title>Eduardo Souza — QA & Automação</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <nav class="navigation shell" aria-label="Navegação principal">
+        <a class="wordmark" href="#inicio" aria-label="Eduardo Souza, início">
+          <span class="wordmark-mark" aria-hidden="true">e<span>.</span></span>
+          <span class="wordmark-name">Eduardo Souza</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="navigation-links"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navigation-links" id="navigation-links">
+          <a href="#sobre">Sobre</a>
+          <a href="#projetos">Projetos</a>
+          <a class="nav-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero shell" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> QA · AUTOMAÇÃO · QUALIDADE</p>
+          <h1 id="hero-title">Software melhor<br>começa com <span>bons testes.</span></h1>
+          <p class="hero-description">
+            Sou Eduardo — transformo cenários reais em testes claros, automações
+            confiáveis e experiências digitais melhores.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Conheça meu trabalho <span aria-hidden="true">↓</span></a>
+            <a
+              class="button button-quiet"
+              href="https://github.com/dudutronic"
+              target="_blank"
+              rel="noreferrer"
+            >GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="terminal" aria-label="Exemplo de cenário de teste automatizado">
+          <div class="terminal-bar">
+            <div class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span>login.feature</span>
+            <span class="terminal-language">GHERKIN</span>
+          </div>
+          <div class="terminal-code">
+            <p><span class="code-muted">01</span> <span class="code-purple">@smoke</span></p>
+            <p><span class="code-muted">02</span> <span class="code-green">Feature:</span> Login seguro</p>
+            <p><span class="code-muted">03</span></p>
+            <p><span class="code-muted">04</span> <span class="code-green">Scenario:</span> Acessar minha conta</p>
+            <p><span class="code-muted">05</span> &nbsp; <span class="code-blue">Given</span> que tenho credenciais válidas</p>
+            <p><span class="code-muted">06</span> &nbsp; <span class="code-blue">When</span> envio o formulário de login</p>
+            <p><span class="code-muted">07</span> &nbsp; <span class="code-blue">Then</span> acesso minha área segura</p>
+            <div class="terminal-result"><span aria-hidden="true">✓</span> Cenário validado <span class="result-time">1.24s</span></div>
+          </div>
+        </div>
+
+        <a class="scroll-hint" href="#sobre"><span class="scroll-line"></span> DESÇA PARA EXPLORAR</a>
+        <span class="hero-index" aria-hidden="true">01 / 03</span>
+      </section>
+
+      <section class="about section-shell" id="sobre" aria-labelledby="about-title">
+        <div class="section-label"><span>01</span> SOBRE MIM</div>
+        <div class="about-content">
+          <h2 id="about-title">Qualidade não é uma etapa.<br>É parte de <span>cada decisão.</span></h2>
+          <div class="about-details">
+            <p>
+              Gosto de entender como as pessoas usam um produto e traduzir isso
+              em validações que fazem sentido. Trabalho com automação orientada
+              a comportamento para tornar os fluxos mais fáceis de entender,
+              manter e evoluir.
+            </p>
+            <div class="skill-list" aria-label="Tecnologias e práticas">
+              <span>TypeScript</span>
+              <span>Playwright</span>
+              <span>Cucumber</span>
+              <span>BDD</span>
+              <span>GitHub Actions</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-shell" id="projetos" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-label"><span>02</span> TRABALHO EM DESTAQUE</div>
+            <h2 id="projects-title">Projetos<span class="accent-dot">.</span></h2>
+          </div>
+          <p>Automação feita para dar confiança<br>em cada entrega.</p>
+        </div>
+
+        <article class="project-card">
+          <div class="project-main">
+            <div class="project-topline">
+              <span class="project-category">AUTOMAÇÃO DE TESTES · PROJETO EM DESTAQUE</span>
+              <span class="project-stars" aria-label="Repositório pessoal">↗ PESSOAL</span>
+            </div>
+            <h3>Musi Playwright BDD</h3>
+            <p class="project-description">
+              Uma suíte de testes end-to-end que combina Playwright, TypeScript e
+              Cucumber para validar fluxos com cenários legíveis, relatórios com
+              evidências e execução automatizada no GitHub Actions.
+            </p>
+            <div class="project-tags" aria-label="Tecnologias do projeto">
+              <span>TypeScript</span>
+              <span>Playwright</span>
+              <span>Cucumber BDD</span>
+              <span>CI / GitHub Actions</span>
+            </div>
+            <a
+              class="project-link"
+              href="https://github.com/dudutronic/musica-ae-qa"
+              target="_blank"
+              rel="noreferrer"
+            >Explorar repositório <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="project-aside">
+            <p class="aside-label">O PROJETO EM NÚMEROS</p>
+            <div class="project-stat">
+              <strong>41</strong>
+              <span>arquivos de<br>especificação BDD</span>
+            </div>
+            <div class="project-stat">
+              <strong>62</strong>
+              <span>cenários<br>BDD</span>
+            </div>
+            <div class="project-stat">
+              <strong>3</strong>
+              <span>browsers<br>suportados</span>
+            </div>
+            <div class="aside-decoration" aria-hidden="true">{ quality }</div>
+          </div>
+        </article>
+        <p class="project-note">Os números refletem o estado atual do projeto neste portfólio.</p>
+      </section>
+
+      <section class="contact section-shell" id="contato" aria-labelledby="contact-title">
+        <div class="section-label"><span>03</span> CONTATO</div>
+        <div class="contact-content">
+          <div>
+            <p class="eyebrow">TEM UM PROJETO EM MENTE?</p>
+            <h2 id="contact-title">Vamos fazer algo<br><span>bem feito.</span></h2>
+          </div>
+          <a
+            class="contact-link"
+            href="https://github.com/dudutronic"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>Encontre-me no GitHub</span>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner shell">
+        <a class="wordmark footer-wordmark" href="#inicio">
+          <span class="wordmark-mark" aria-hidden="true">e<span>.</span></span>
+          <span class="wordmark-name">Eduardo Souza</span>
+        </a>
+        <p>Feito com cuidado e bons testes.</p>
+        <span>© <span id="current-year">2025</span> Eduardo Souza</span>
+      </div>
+    </footer>
+  </body>
+</html>
