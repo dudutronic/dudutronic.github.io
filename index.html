@@ -40,6 +40,7 @@
         </button>
         <div class="navigation-links" id="navigation-links">
           <a href="#sobre">Sobre</a>
+          <a href="#competencias">Competências</a>
           <a href="#projetos">Projetos</a>
           <a class="nav-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
         </div>
@@ -52,8 +53,8 @@
           <p class="eyebrow"><span class="status-dot"></span> QA · AUTOMAÇÃO · QUALIDADE</p>
           <h1 id="hero-title">Software melhor<br>começa com <span>bons testes.</span></h1>
           <p class="hero-description">
-            Sou Eduardo — transformo cenários reais em testes claros, automações
-            confiáveis e experiências digitais melhores.
+            Sou Eduardo, profissional de QA focado em automação E2E, testes
+            funcionais e qualidade integrada ao ciclo de desenvolvimento.
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="#projetos">Conheça meu trabalho <span aria-hidden="true">↓</span></a>
@@ -85,7 +86,7 @@
         </div>
 
         <a class="scroll-hint" href="#sobre"><span class="scroll-line"></span> DESÇA PARA EXPLORAR</a>
-        <span class="hero-index" aria-hidden="true">01 / 03</span>
+        <span class="hero-index" aria-hidden="true">01 / 04</span>
       </section>
 
       <section class="about section-shell" id="sobre" aria-labelledby="about-title">
@@ -104,19 +105,64 @@
               <span>Playwright</span>
               <span>Cucumber</span>
               <span>BDD</span>
+              <span>JavaScript</span>
+              <span>Cypress</span>
               <span>GitHub Actions</span>
             </div>
           </div>
         </div>
       </section>
 
+      <section class="competencies section-shell" id="competencias" aria-labelledby="competencies-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-label"><span>02</span> COMPETÊNCIAS EM PRÁTICA</div>
+            <h2 id="competencies-title">QA de ponta a ponta<span class="accent-dot">.</span></h2>
+          </div>
+          <p>Mais que ferramentas: qualidade<br>aplicada ao produto e ao time.</p>
+        </div>
+
+        <div class="competency-grid">
+          <article class="competency-card">
+            <span class="competency-index">01 / E2E</span>
+            <h3>Automação de fluxos</h3>
+            <p>Login, cadastro e jornadas reais validados de ponta a ponta.</p>
+          </article>
+          <article class="competency-card">
+            <span class="competency-index">02 / BDD</span>
+            <h3>Cenários legíveis</h3>
+            <p>Gherkin aproxima regras de negócio, QA e desenvolvimento.</p>
+          </article>
+          <article class="competency-card">
+            <span class="competency-index">03 / UI</span>
+            <h3>Testes funcionais</h3>
+            <p>Campos, validações, estados, navegação e feedback da interface.</p>
+          </article>
+          <article class="competency-card">
+            <span class="competency-index">04 / COMPATIBILIDADE</span>
+            <h3>Browsers & telas</h3>
+            <p>Playwright com Chromium, Firefox e WebKit; Cypress em telas mobile, tablet e desktop.</p>
+          </article>
+          <article class="competency-card">
+            <span class="competency-index">05 / CI</span>
+            <h3>Qualidade contínua</h3>
+            <p>GitHub Actions executa verificações a cada push e pull request.</p>
+          </article>
+          <article class="competency-card">
+            <span class="competency-index">06 / EVIDÊNCIAS</span>
+            <h3>Falhas investigáveis</h3>
+            <p>Relatórios, screenshots, vídeos e artefatos ajudam a entender resultados.</p>
+          </article>
+        </div>
+      </section>
+
       <section class="projects section-shell" id="projetos" aria-labelledby="projects-title">
         <div class="section-heading">
           <div>
-            <div class="section-label"><span>02</span> TRABALHO EM DESTAQUE</div>
+            <div class="section-label"><span>03</span> TRABALHO EM DESTAQUE</div>
             <h2 id="projects-title">Projetos<span class="accent-dot">.</span></h2>
           </div>
-          <p>Duas suítes independentes.<br>Dois frameworks de automação.</p>
+          <p>Frameworks distintos.<br>Configuração real e execução contínua.</p>
         </div>
 
         <article class="project-card">
@@ -136,6 +182,16 @@
               <span>Playwright</span>
               <span>Cucumber BDD</span>
               <span>CI / GitHub Actions</span>
+            </div>
+            <div class="framework-config">
+              <p class="config-heading">COMO O PLAYWRIGHT FOI CONFIGURADO</p>
+              <ul>
+                <li><strong>TypeScript + Page Objects:</strong> ações e seletores organizados por página.</li>
+                <li><strong>Cucumber BDD:</strong> perfis smoke e regressão; execução por tags.</li>
+                <li><strong>Execução isolada:</strong> contexto novo por cenário, navegador selecionável e evidências de tela/vídeo.</li>
+                <li><strong>GitHub Actions:</strong> Node 20, verificação de tipos, smoke e relatórios como artefatos.</li>
+              </ul>
+              <a class="config-link" href="https://github.com/dudutronic/musica-ae-qa/actions" target="_blank" rel="noreferrer">Ver execuções da esteira <span aria-hidden="true">↗</span></a>
             </div>
             <a
               class="project-link"
@@ -181,6 +237,16 @@
               <span>Testes E2E</span>
               <span>GitHub Actions</span>
             </div>
+            <div class="framework-config">
+              <p class="config-heading">COMO O CYPRESS FOI CONFIGURADO</p>
+              <ul>
+                <li><strong>Configuração central:</strong> URL do ambiente por variável, viewport padrão e timeout definido.</li>
+                <li><strong>Execução estável:</strong> nova tentativa em CI e limpeza de cookies/storage entre testes.</li>
+                <li><strong>Responsividade:</strong> validação de overflow e campos em mobile, tablet e desktop.</li>
+                <li><strong>GitHub Actions:</strong> Cypress em push, pull request e execução manual; vídeos e screenshots arquivados.</li>
+              </ul>
+              <a class="config-link" href="https://github.com/dudutronic/musica-ae-qa-cypress/actions" target="_blank" rel="noreferrer">Ver execuções da esteira <span aria-hidden="true">↗</span></a>
+            </div>
             <a
               class="project-link"
               href="https://github.com/dudutronic/musica-ae-qa-cypress"
@@ -209,7 +275,7 @@
       </section>
 
       <section class="contact section-shell" id="contato" aria-labelledby="contact-title">
-        <div class="section-label"><span>03</span> CONTATO</div>
+        <div class="section-label"><span>04</span> CONTATO</div>
         <div class="contact-content">
           <div>
             <p class="eyebrow">TEM UM PROJETO EM MENTE?</p>
