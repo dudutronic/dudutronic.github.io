@@ -7,7 +7,7 @@
       name="description"
       content="Portfólio de Eduardo Souza: qualidade de software, automação de testes e desenvolvimento de soluções confiáveis."
     >
-    <meta name="theme-color" content="#111210">
+    <meta name="theme-color" content="#0b1019">
     <title>Eduardo Souza — QA & Automação</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,11 +20,11 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <a class="skip-link" href="#conteudo" data-i18n="skip">Pular para o conteúdo</a>
 
     <header class="site-header">
-      <nav class="navigation shell" aria-label="Navegação principal">
-        <a class="wordmark" href="#inicio" aria-label="Eduardo Souza, início">
+      <nav class="navigation shell" aria-label="Navegação principal" data-i18n-aria="navLabel">
+        <a class="wordmark" href="#inicio" aria-label="Eduardo Souza, início" data-i18n-aria="homeLabel">
           <span class="wordmark-mark" aria-hidden="true">e<span>.</span></span>
           <span class="wordmark-name">Eduardo Souza</span>
         </a>
@@ -39,10 +39,15 @@
           <span></span>
         </button>
         <div class="navigation-links" id="navigation-links">
-          <a href="#sobre">Sobre</a>
-          <a href="#competencias">Competências</a>
-          <a href="#projetos">Projetos</a>
-          <a class="nav-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+          <a href="#sobre" data-i18n="navAbout">Sobre</a>
+          <a href="#competencias" data-i18n="navSkills">Competências</a>
+          <a href="#projetos" data-i18n="navProjects">Projetos</a>
+          <a class="nav-contact" href="#contato"><span data-i18n="navContact">Vamos conversar</span> <span aria-hidden="true">↗</span></a>
+          <div class="language-picker" role="group" aria-label="Selecionar idioma" data-i18n-aria="languageLabel">
+            <button type="button" lang="pt-BR" data-language="pt" aria-pressed="true">PT</button>
+            <button type="button" lang="en" data-language="en" aria-pressed="false">EN</button>
+            <button type="button" lang="es" data-language="es" aria-pressed="false">ES</button>
+          </div>
         </div>
       </nav>
     </header>
@@ -50,14 +55,14 @@
     <main id="conteudo">
       <section class="hero shell" id="inicio" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="status-dot"></span> QA · AUTOMAÇÃO · QUALIDADE</p>
-          <h1 id="hero-title">Software melhor<br>começa com <span>bons testes.</span></h1>
-          <p class="hero-description">
+          <p class="eyebrow"><span class="status-dot"></span> <span data-i18n="heroEyebrow">QA · AUTOMAÇÃO · QUALIDADE</span></p>
+          <h1 id="hero-title" data-i18n-html="heroTitle">Software melhor<br>começa com <span>bons testes.</span></h1>
+          <p class="hero-description" data-i18n="heroDescription">
             Sou Eduardo, profissional de QA focado em automação E2E, testes
             funcionais e qualidade integrada ao ciclo de desenvolvimento.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#projetos">Conheça meu trabalho <span aria-hidden="true">↓</span></a>
+            <a class="button button-primary" href="#projetos"><span data-i18n="heroWork">Conheça meu trabalho</span> <span aria-hidden="true">↓</span></a>
             <a
               class="button button-quiet"
               href="https://github.com/dudutronic"
@@ -67,7 +72,7 @@
           </div>
         </div>
 
-        <div class="terminal" aria-label="Exemplo de cenário de teste automatizado">
+        <div class="terminal" aria-label="Exemplo de cenário de teste automatizado" data-i18n-aria="terminalLabel">
           <div class="terminal-bar">
             <div class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></div>
             <span>login.feature</span>
@@ -75,32 +80,44 @@
           </div>
           <div class="terminal-code">
             <p><span class="code-muted">01</span> <span class="code-purple">@smoke</span></p>
-            <p><span class="code-muted">02</span> <span class="code-green">Feature:</span> Login seguro</p>
+            <p><span class="code-muted">02</span> <span class="code-green">Feature:</span> <span data-i18n="terminalFeature">Login seguro</span></p>
             <p><span class="code-muted">03</span></p>
-            <p><span class="code-muted">04</span> <span class="code-green">Scenario:</span> Acessar minha conta</p>
-            <p><span class="code-muted">05</span> &nbsp; <span class="code-blue">Given</span> que tenho credenciais válidas</p>
-            <p><span class="code-muted">06</span> &nbsp; <span class="code-blue">When</span> envio o formulário de login</p>
-            <p><span class="code-muted">07</span> &nbsp; <span class="code-blue">Then</span> acesso minha área segura</p>
-            <div class="terminal-result"><span aria-hidden="true">✓</span> Cenário validado <span class="result-time">1.24s</span></div>
+            <p><span class="code-muted">04</span> <span class="code-green">Scenario:</span> <span data-i18n="terminalScenario">Acessar minha conta</span></p>
+            <p><span class="code-muted">05</span> &nbsp; <span class="code-blue">Given</span> <span data-i18n="terminalGiven">que tenho credenciais válidas</span></p>
+            <p><span class="code-muted">06</span> &nbsp; <span class="code-blue">When</span> <span data-i18n="terminalWhen">envio o formulário de login</span></p>
+            <p><span class="code-muted">07</span> &nbsp; <span class="code-blue">Then</span> <span data-i18n="terminalThen">acesso minha área segura</span></p>
+            <div class="terminal-result"><span aria-hidden="true">✓</span> <span data-i18n="terminalResult">Cenário validado</span> <span class="result-time">1.24s</span></div>
           </div>
         </div>
+        <div class="hero-mascot" aria-hidden="true">
+          <svg viewBox="0 0 120 120" role="presentation">
+            <path d="M60 8v14M53 8h14" fill="none" stroke="currentColor" stroke-width="4" />
+            <rect x="22" y="24" width="76" height="66" rx="15" fill="#141d2a" stroke="currentColor" stroke-width="3" />
+            <path d="M22 43h-8v22h8m76-22h8v22h-8M38 90v12m44-12v12" fill="none" stroke="currentColor" stroke-width="4" />
+            <rect x="36" y="42" width="17" height="17" rx="4" fill="#67f5d2" />
+            <rect x="67" y="42" width="17" height="17" rx="4" fill="#b791ff" />
+            <path d="M42 73h36" fill="none" stroke="#f3bd65" stroke-width="4" stroke-linecap="round" />
+            <path d="m60 14 4 5-4 5-4-5z" fill="#f3bd65" />
+          </svg>
+          <span>QA-BOT / ONLINE</span>
+        </div>
 
-        <a class="scroll-hint" href="#sobre"><span class="scroll-line"></span> DESÇA PARA EXPLORAR</a>
+        <a class="scroll-hint" href="#sobre"><span class="scroll-line"></span> <span data-i18n="scrollHint">DESÇA PARA EXPLORAR</span></a>
         <span class="hero-index" aria-hidden="true">01 / 04</span>
       </section>
 
       <section class="about section-shell" id="sobre" aria-labelledby="about-title">
-        <div class="section-label"><span>01</span> SOBRE MIM</div>
+        <div class="section-label"><span>01</span> <span data-i18n="aboutLabel">SOBRE MIM</span></div>
         <div class="about-content">
-          <h2 id="about-title">Qualidade não é uma etapa.<br>É parte de <span>cada decisão.</span></h2>
+          <h2 id="about-title" data-i18n-html="aboutTitle">Qualidade não é uma etapa.<br>É parte de <span>cada decisão.</span></h2>
           <div class="about-details">
-            <p>
+            <p data-i18n="aboutDescription">
               Gosto de entender como as pessoas usam um produto e traduzir isso
               em validações que fazem sentido. Trabalho com automação orientada
               a comportamento para tornar os fluxos mais fáceis de entender,
               manter e evoluir.
             </p>
-            <div class="skill-list" aria-label="Tecnologias e práticas">
+            <div class="skill-list" aria-label="Tecnologias e práticas" data-i18n-aria="skillsLabel">
               <span>TypeScript</span>
               <span>Playwright</span>
               <span>Cucumber</span>
@@ -116,52 +133,52 @@
       <section class="competencies section-shell" id="competencias" aria-labelledby="competencies-title">
         <div class="section-heading">
           <div>
-            <div class="section-label"><span>02</span> COMPETÊNCIAS EM PRÁTICA</div>
-            <h2 id="competencies-title">QA de ponta a ponta<span class="accent-dot">.</span></h2>
+            <div class="section-label"><span>02</span> <span data-i18n="skillsLabelTitle">COMPETÊNCIAS EM PRÁTICA</span></div>
+            <h2 id="competencies-title"><span data-i18n="skillsTitle">QA de ponta a ponta</span><span class="accent-dot">.</span></h2>
           </div>
-          <p>Mais que ferramentas: qualidade<br>aplicada ao produto e ao time.</p>
+          <p data-i18n-html="skillsIntro">Mais que ferramentas: qualidade<br>aplicada ao produto e ao time.</p>
         </div>
 
         <div class="competency-grid">
           <article class="competency-card">
-            <span class="competency-index">01 / E2E</span>
-            <h3>Automação de fluxos</h3>
-            <p>Login, cadastro e jornadas reais validados de ponta a ponta.</p>
+            <span class="competency-index" data-i18n="skill1Index">01 / E2E</span>
+            <h3 data-i18n="skill1Title">Automação de fluxos</h3>
+            <p data-i18n="skill1Description">Login, cadastro e jornadas reais validados de ponta a ponta.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index">02 / BDD</span>
-            <h3>Cenários legíveis</h3>
-            <p>Gherkin aproxima regras de negócio, QA e desenvolvimento.</p>
+            <span class="competency-index" data-i18n="skill2Index">02 / BDD</span>
+            <h3 data-i18n="skill2Title">Cenários legíveis</h3>
+            <p data-i18n="skill2Description">Gherkin aproxima regras de negócio, QA e desenvolvimento.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index">03 / UI</span>
-            <h3>Testes funcionais</h3>
-            <p>Campos, validações, estados, navegação e feedback da interface.</p>
+            <span class="competency-index" data-i18n="skill3Index">03 / UI</span>
+            <h3 data-i18n="skill3Title">Testes funcionais</h3>
+            <p data-i18n="skill3Description">Campos, validações, estados, navegação e feedback da interface.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index">04 / COMPATIBILIDADE</span>
-            <h3>Browsers & telas</h3>
-            <p>Playwright com Chromium, Firefox e WebKit; Cypress em telas mobile, tablet e desktop.</p>
+            <span class="competency-index" data-i18n="skill4Index">04 / COMPATIBILIDADE</span>
+            <h3 data-i18n="skill4Title">Browsers & telas</h3>
+            <p data-i18n="skill4Description">Playwright com Chromium, Firefox e WebKit; Cypress em telas mobile, tablet e desktop.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index">05 / CI</span>
-            <h3>Qualidade contínua</h3>
-            <p>GitHub Actions executa verificações a cada push e pull request.</p>
+            <span class="competency-index" data-i18n="skill5Index">05 / CI</span>
+            <h3 data-i18n="skill5Title">Qualidade contínua</h3>
+            <p data-i18n="skill5Description">GitHub Actions executa verificações a cada push e pull request.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index">06 / EVIDÊNCIAS</span>
-            <h3>Falhas investigáveis</h3>
-            <p>Relatórios, screenshots, vídeos e artefatos ajudam a entender resultados.</p>
+            <span class="competency-index" data-i18n="skill6Index">06 / EVIDÊNCIAS</span>
+            <h3 data-i18n="skill6Title">Falhas investigáveis</h3>
+            <p data-i18n="skill6Description">Relatórios, screenshots, vídeos e artefatos ajudam a entender resultados.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index">07 / BACK-END HTTP</span>
-            <h3>Validação de serviços</h3>
-            <p>Requests de leitura verificam status, tipo de conteúdo e resposta das rotas públicas.</p>
+            <span class="competency-index" data-i18n="skill7Index">07 / BACK-END HTTP</span>
+            <h3 data-i18n="skill7Title">Validação de serviços</h3>
+            <p data-i18n="skill7Description">Requests de leitura verificam status, tipo de conteúdo e resposta das rotas públicas.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index">08 / KEYWORD-DRIVEN</span>
-            <h3>Robot Framework</h3>
-            <p>Keywords reutilizáveis e RequestsLibrary organizados em resources no padrão Page Object.</p>
+            <span class="competency-index" data-i18n="skill8Index">08 / KEYWORD-DRIVEN</span>
+            <h3 data-i18n="skill8Title">Robot Framework</h3>
+            <p data-i18n="skill8Description">Keywords reutilizáveis e RequestsLibrary organizados em resources no padrão Page Object.</p>
           </article>
         </div>
       </section>
@@ -169,20 +186,20 @@
       <section class="projects section-shell" id="projetos" aria-labelledby="projects-title">
         <div class="section-heading">
           <div>
-            <div class="section-label"><span>03</span> TRABALHO EM DESTAQUE</div>
-            <h2 id="projects-title">Projetos<span class="accent-dot">.</span></h2>
+            <div class="section-label"><span>03</span> <span data-i18n="projectsLabel">TRABALHO EM DESTAQUE</span></div>
+            <h2 id="projects-title"><span data-i18n="projectsTitle">Projetos</span><span class="accent-dot">.</span></h2>
           </div>
-          <p>Frameworks distintos.<br>Configuração real e execução contínua.</p>
+          <p data-i18n-html="projectsIntro">Frameworks distintos.<br>Configuração real e execução contínua.</p>
         </div>
 
         <article class="project-card">
           <div class="project-main">
             <div class="project-topline">
-              <span class="project-category">AUTOMAÇÃO DE TESTES · PROJETO EM DESTAQUE</span>
-              <span class="project-stars" aria-label="Repositório pessoal">↗ PESSOAL</span>
+              <span class="project-category" data-i18n="playwrightCategory">AUTOMAÇÃO DE TESTES · PROJETO EM DESTAQUE</span>
+              <span class="project-stars" aria-label="Repositório pessoal" data-i18n-aria="personalRepo" data-i18n="personalRepo">↗ PESSOAL</span>
             </div>
             <h3>Musi Playwright BDD</h3>
-            <p class="project-description">
+            <p class="project-description" data-i18n="playwrightDescription">
               Uma suíte de testes end-to-end que combina Playwright, TypeScript e
               Cucumber para validar fluxos com cenários legíveis, relatórios com
               evidências e execução automatizada no GitHub Actions.
@@ -194,36 +211,37 @@
               <span>CI / GitHub Actions</span>
             </div>
             <div class="framework-config">
-              <p class="config-heading">COMO O PLAYWRIGHT FOI CONFIGURADO</p>
+              <p class="config-heading" data-i18n="playwrightConfigTitle">COMO O PLAYWRIGHT FOI CONFIGURADO</p>
               <ul>
-                <li><strong>TypeScript + Page Objects:</strong> ações e seletores organizados por página.</li>
-                <li><strong>Cucumber BDD:</strong> perfis smoke e regressão; execução por tags.</li>
-                <li><strong>Execução isolada:</strong> contexto novo por cenário, navegador selecionável e evidências de tela/vídeo.</li>
-                <li><strong>GitHub Actions:</strong> Node 20, verificação de tipos, smoke e relatórios como artefatos.</li>
+                <li data-i18n-html="playwrightConfig1"><strong>TypeScript + Page Objects:</strong> ações e seletores organizados por página.</li>
+                <li data-i18n-html="playwrightConfig2"><strong>Cucumber BDD:</strong> perfis smoke e regressão; execução por tags.</li>
+                <li data-i18n-html="playwrightConfig3"><strong>Execução isolada:</strong> contexto novo por cenário, navegador selecionável e evidências de tela/vídeo.</li>
+                <li data-i18n-html="playwrightConfig4"><strong>GitHub Actions:</strong> Node 20, verificação de tipos, smoke e relatórios como artefatos.</li>
+                <li data-i18n-html="playwrightConfig5"><strong>Relatórios:</strong> resumo JSON, relatório HTML por execução e evidências de tela/vídeo.</li>
               </ul>
-              <a class="config-link" href="https://github.com/dudutronic/musica-ae-qa/actions" target="_blank" rel="noreferrer">Ver execuções da esteira <span aria-hidden="true">↗</span></a>
+              <a class="config-link" href="https://github.com/dudutronic/musica-ae-qa/actions" target="_blank" rel="noreferrer"><span data-i18n="actionsLink">Ver execuções da esteira</span> <span aria-hidden="true">↗</span></a>
             </div>
             <a
               class="project-link"
               href="https://github.com/dudutronic/musica-ae-qa"
               target="_blank"
               rel="noreferrer"
-            >Explorar repositório <span aria-hidden="true">↗</span></a>
+            ><span data-i18n="playwrightRepoLink">Explorar repositório</span> <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="project-aside">
-            <p class="aside-label">O PROJETO EM NÚMEROS</p>
+            <p class="aside-label" data-i18n="playwrightStatsLabel">O PROJETO EM NÚMEROS</p>
             <div class="project-stat">
               <strong>41</strong>
-              <span>arquivos de<br>especificação BDD</span>
+              <span data-i18n-html="playwrightStat1">arquivos de<br>especificação BDD</span>
             </div>
             <div class="project-stat">
               <strong>62</strong>
-              <span>cenários<br>BDD</span>
+              <span data-i18n-html="playwrightStat2">cenários<br>BDD</span>
             </div>
             <div class="project-stat">
               <strong>3</strong>
-              <span>browsers<br>suportados</span>
+              <span data-i18n-html="playwrightStat3">browsers<br>suportados</span>
             </div>
             <div class="aside-decoration" aria-hidden="true">{ quality }</div>
           </div>
@@ -232,11 +250,11 @@
         <article class="project-card project-card-cypress">
           <div class="project-main">
             <div class="project-topline">
-              <span class="project-category">AUTOMAÇÃO DE TESTES · CYPRESS</span>
-              <span class="project-stars" aria-label="Repositório pessoal">↗ PESSOAL</span>
+              <span class="project-category" data-i18n="cypressCategory">AUTOMAÇÃO DE TESTES · CYPRESS</span>
+              <span class="project-stars" aria-label="Repositório pessoal" data-i18n-aria="personalRepo" data-i18n="personalRepo">↗ PESSOAL</span>
             </div>
             <h3>Musi Cypress E2E</h3>
-            <p class="project-description">
+            <p class="project-description" data-i18n="cypressDescription">
               Uma segunda suíte, independente da implementação com Playwright,
               que usa Cypress para testar os formulários de cadastro e login da
               Musi e conferir o comportamento responsivo em diferentes telas.
@@ -248,47 +266,48 @@
               <span>GitHub Actions</span>
             </div>
             <div class="framework-config">
-              <p class="config-heading">COMO O CYPRESS FOI CONFIGURADO</p>
+              <p class="config-heading" data-i18n="cypressConfigTitle">COMO O CYPRESS FOI CONFIGURADO</p>
               <ul>
-                <li><strong>Configuração central:</strong> URL do ambiente por variável, viewport padrão e timeout definido.</li>
-                <li><strong>Execução estável:</strong> nova tentativa em CI e limpeza de cookies/storage entre testes.</li>
-                <li><strong>Responsividade:</strong> validação de overflow e campos em mobile, tablet e desktop.</li>
-                <li><strong>GitHub Actions:</strong> Cypress em push, pull request e execução manual; vídeos e screenshots arquivados.</li>
+                <li data-i18n-html="cypressConfig1"><strong>Configuração central:</strong> URL do ambiente por variável, viewport padrão e timeout definido.</li>
+                <li data-i18n-html="cypressConfig2"><strong>Execução estável:</strong> nova tentativa em CI e limpeza de cookies/storage entre testes.</li>
+                <li data-i18n-html="cypressConfig3"><strong>Responsividade:</strong> validação de overflow e campos em mobile, tablet e desktop.</li>
+                <li data-i18n-html="cypressConfig4"><strong>GitHub Actions:</strong> Cypress em push, pull request e execução manual; vídeos e screenshots arquivados.</li>
+                <li data-i18n-html="cypressConfig5"><strong>Relatórios:</strong> vídeos por spec e screenshots em falhas; sem reporter HTML configurado.</li>
               </ul>
-              <a class="config-link" href="https://github.com/dudutronic/musica-ae-qa-cypress/actions" target="_blank" rel="noreferrer">Ver execuções da esteira <span aria-hidden="true">↗</span></a>
+              <a class="config-link" href="https://github.com/dudutronic/musica-ae-qa-cypress/actions" target="_blank" rel="noreferrer"><span data-i18n="actionsLink">Ver execuções da esteira</span> <span aria-hidden="true">↗</span></a>
             </div>
             <a
               class="project-link"
               href="https://github.com/dudutronic/musica-ae-qa-cypress"
               target="_blank"
               rel="noreferrer"
-            >Explorar repositório Cypress <span aria-hidden="true">↗</span></a>
+            ><span data-i18n="cypressRepoLink">Explorar repositório Cypress</span> <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="project-aside">
-            <p class="aside-label">COBERTURA DA SUÍTE</p>
+            <p class="aside-label" data-i18n="cypressStatsLabel">COBERTURA DA SUÍTE</p>
             <div class="project-stat">
               <strong>3</strong>
-              <span>validações<br>de cadastro</span>
+              <span data-i18n-html="cypressStat1">validações<br>de cadastro</span>
             </div>
             <div class="project-stat">
               <strong>2</strong>
-              <span>cenários<br>de login</span>
+              <span data-i18n-html="cypressStat2">cenários<br>de login</span>
             </div>
             <div class="project-stat">
               <strong>3</strong>
-              <span>tamanhos<br>de tela</span>
+              <span data-i18n-html="cypressStat3">tamanhos<br>de tela</span>
             </div>
           </div>
         </article>
         <article class="project-card project-card-robot">
           <div class="project-main">
             <div class="project-topline">
-              <span class="project-category">BACK-END HTTP · ROBOT FRAMEWORK</span>
-              <span class="project-stars" aria-label="Repositório pessoal">↗ PESSOAL</span>
+              <span class="project-category" data-i18n="robotCategory">BACK-END HTTP · ROBOT FRAMEWORK</span>
+              <span class="project-stars" aria-label="Repositório pessoal" data-i18n-aria="personalRepo" data-i18n="personalRepo">↗ PESSOAL</span>
             </div>
             <h3>Musi Robot HTTP Smoke</h3>
-            <p class="project-description">
+            <p class="project-description" data-i18n="robotDescription">
               Uma terceira suíte que valida, por HTTP e sem alterar dados, a
               disponibilidade e o conteúdo das rotas públicas de login e
               cadastro. Complementa os testes de interface com uma checagem
@@ -301,48 +320,49 @@
               <span>GitHub Actions</span>
             </div>
             <div class="framework-config">
-              <p class="config-heading">COMO O ROBOT FRAMEWORK FOI CONFIGURADO</p>
+              <p class="config-heading" data-i18n="robotConfigTitle">COMO O ROBOT FRAMEWORK FOI CONFIGURADO</p>
               <ul>
-                <li><strong>Page Object para HTTP:</strong> um resource reutilizável encapsula sessão, rotas e validações.</li>
-                <li><strong>RequestsLibrary:</strong> confere status HTTP, tipo HTML e título esperado das páginas públicas.</li>
-                <li><strong>Execução segura:</strong> somente GET em /login e /register; sem login, POST ou criação de dados.</li>
-                <li><strong>GitHub Actions:</strong> Python 3.13, dependências fixadas e relatórios Robot publicados como artefatos.</li>
+                <li data-i18n-html="robotConfig1"><strong>Page Object para HTTP:</strong> um resource reutilizável encapsula sessão, rotas e validações.</li>
+                <li data-i18n-html="robotConfig2"><strong>RequestsLibrary:</strong> confere status HTTP, tipo HTML e título esperado das páginas públicas.</li>
+                <li data-i18n-html="robotConfig3"><strong>Execução segura:</strong> somente GET em /login e /register; sem login, POST ou criação de dados.</li>
+                <li data-i18n-html="robotConfig4"><strong>GitHub Actions:</strong> Python 3.13, dependências fixadas e relatórios Robot publicados como artefatos.</li>
+                <li data-i18n-html="robotConfig5"><strong>Relatórios:</strong> report.html, log.html e output.xml em robot-results/.</li>
               </ul>
-              <a class="config-link" href="https://github.com/dudutronic/musica-ae-qa-robot-api/actions" target="_blank" rel="noreferrer">Ver execuções da esteira <span aria-hidden="true">↗</span></a>
+              <a class="config-link" href="https://github.com/dudutronic/musica-ae-qa-robot-api/actions" target="_blank" rel="noreferrer"><span data-i18n="actionsLink">Ver execuções da esteira</span> <span aria-hidden="true">↗</span></a>
             </div>
             <a
               class="project-link"
               href="https://github.com/dudutronic/musica-ae-qa-robot-api"
               target="_blank"
               rel="noreferrer"
-            >Explorar projeto Robot Framework <span aria-hidden="true">↗</span></a>
+            ><span data-i18n="robotRepoLink">Explorar projeto Robot Framework</span> <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="project-aside">
-            <p class="aside-label">SMOKE HTTP SOMENTE LEITURA</p>
+            <p class="aside-label" data-i18n="robotStatsLabel">SMOKE HTTP SOMENTE LEITURA</p>
             <div class="project-stat">
               <strong>2</strong>
-              <span>rotas<br>públicas</span>
+              <span data-i18n-html="robotStat1">rotas<br>públicas</span>
             </div>
             <div class="project-stat">
               <strong>2</strong>
-              <span>testes<br>automatizados</span>
+              <span data-i18n-html="robotStat2">testes<br>automatizados</span>
             </div>
             <div class="project-stat">
               <strong>0</strong>
-              <span>alterações<br>de dados</span>
+              <span data-i18n-html="robotStat3">alterações<br>de dados</span>
             </div>
           </div>
         </article>
-        <p class="project-note">As três suítes têm execução própria. O Robot valida páginas HTML públicas por GET; nenhum contrato de API JSON é presumido.</p>
+        <p class="project-note" data-i18n="projectNote">As três suítes têm execução própria. O Robot valida páginas HTML públicas por GET; nenhum contrato de API JSON é presumido.</p>
       </section>
 
       <section class="contact section-shell" id="contato" aria-labelledby="contact-title">
-        <div class="section-label"><span>04</span> CONTATO</div>
+        <div class="section-label"><span>04</span> <span data-i18n="contactLabel">CONTATO</span></div>
         <div class="contact-content">
           <div>
-            <p class="eyebrow">TEM UM PROJETO EM MENTE?</p>
-            <h2 id="contact-title">Vamos fazer algo<br><span>bem feito.</span></h2>
+            <p class="eyebrow" data-i18n="contactEyebrow">TEM UM PROJETO EM MENTE?</p>
+            <h2 id="contact-title" data-i18n-html="contactTitle">Vamos fazer algo<br><span>bem feito.</span></h2>
           </div>
           <a
             class="contact-link"
@@ -350,7 +370,7 @@
             target="_blank"
             rel="noreferrer"
           >
-            <span>Encontre-me no GitHub</span>
+            <span data-i18n="contactLink">Encontre-me no GitHub</span>
             <span class="contact-arrow" aria-hidden="true">↗</span>
           </a>
         </div>
@@ -359,11 +379,11 @@
 
     <footer class="site-footer">
       <div class="footer-inner shell">
-        <a class="wordmark footer-wordmark" href="#inicio">
+        <a class="wordmark footer-wordmark" href="#inicio" aria-label="Eduardo Souza, início" data-i18n-aria="homeLabel">
           <span class="wordmark-mark" aria-hidden="true">e<span>.</span></span>
           <span class="wordmark-name">Eduardo Souza</span>
         </a>
-        <p>Feito com cuidado e bons testes.</p>
+        <p data-i18n="footerNote">Feito com cuidado e bons testes.</p>
         <span>© <span id="current-year">2025</span> Eduardo Souza</span>
       </div>
     </footer>

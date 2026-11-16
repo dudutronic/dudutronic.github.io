@@ -1,13 +1,15 @@
 :root {
   color-scheme: dark;
-  --background: #111210;
-  --surface: #181916;
-  --surface-raised: #1d1e1a;
-  --text: #f0efe9;
-  --muted: #a4a49a;
-  --subtle: #696a61;
-  --accent: #d3f36b;
-  --line: #2b2c26;
+  --background: #0b1019;
+  --surface: #111a27;
+  --surface-raised: #172333;
+  --text: #f0f3ff;
+  --muted: #a6b1c4;
+  --subtle: #768397;
+  --accent: #67f5d2;
+  --line: #263345;
+  --purple: #b791ff;
+  --amber: #f3bd65;
   --mono: "DM Mono", monospace;
   --sans: "DM Sans", sans-serif;
   --display: "Space Grotesk", sans-serif;
@@ -26,11 +28,36 @@ body {
   min-width: 320px;
   margin: 0;
   background:
-    radial-gradient(ellipse at 82% 18%, rgb(211 243 107 / 4%), transparent 25rem),
+    radial-gradient(ellipse at 82% 18%, rgb(103 245 210 / 9%), transparent 25rem),
+    radial-gradient(ellipse at 14% 48%, rgb(183 145 255 / 5%), transparent 30rem),
     var(--background);
   color: var(--text);
   font-family: var(--sans);
   -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, rgb(230 242 255 / 52%) 0 1px, transparent 1.5px),
+    linear-gradient(rgb(103 245 210 / 3%) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(103 245 210 / 3%) 1px, transparent 1px);
+  background-position: 16px 27px, center center, center center;
+  background-size: 109px 97px, 42px 42px, 42px 42px;
+  content: "";
+  opacity: 0.42;
+  pointer-events: none;
+}
+
+body::after {
+  position: fixed;
+  z-index: 8;
+  inset: 0;
+  background: repeating-linear-gradient(transparent 0 3px, rgb(0 0 0 / 4%) 4px);
+  content: "";
+  pointer-events: none;
 }
 
 a {
@@ -84,6 +111,12 @@ button:focus-visible {
   backdrop-filter: blur(16px);
 }
 
+main,
+.site-footer {
+  position: relative;
+  z-index: 1;
+}
+
 .navigation,
 .navigation-links,
 .wordmark {
@@ -128,6 +161,38 @@ button:focus-visible {
   font-size: 13px;
 }
 
+.language-picker {
+  display: inline-flex;
+  gap: 3px;
+  padding: 3px;
+  border: 1px solid #35445a;
+  border-radius: 5px;
+  background: #101927;
+}
+
+.language-picker button {
+  min-width: 32px;
+  min-height: 28px;
+  padding: 0 6px;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  color: #a6b1c4;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 9px;
+}
+
+.language-picker button[aria-pressed="true"] {
+  background: var(--accent);
+  color: #0b1019;
+  font-weight: 700;
+}
+
+.language-picker button:hover:not([aria-pressed="true"]) {
+  color: var(--text);
+}
+
 .navigation-links a {
   transition: color 160ms ease;
 }
@@ -161,6 +226,39 @@ button:focus-visible {
   gap: 58px;
   padding-top: 30px;
   padding-bottom: 102px;
+}
+
+.hero-mascot {
+  position: absolute;
+  z-index: 0;
+  top: 75px;
+  right: -28px;
+  display: grid;
+  width: 118px;
+  justify-items: center;
+  gap: 3px;
+  color: var(--accent);
+  opacity: 0.7;
+  pointer-events: none;
+  transform: rotate(7deg);
+}
+
+.hero-copy,
+.terminal {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-mascot svg {
+  width: 100%;
+  filter: drop-shadow(0 0 17px rgb(103 245 210 / 25%));
+}
+
+.hero-mascot span {
+  color: var(--amber);
+  font-family: var(--mono);
+  font-size: 7px;
+  letter-spacing: 0.12em;
 }
 
 .eyebrow,
@@ -267,8 +365,8 @@ button:focus-visible {
   overflow: hidden;
   border: 1px solid #30312b;
   border-radius: 8px;
-  background: #161714;
-  box-shadow: 0 28px 80px rgb(0 0 0 / 22%), 0 0 70px rgb(211 243 107 / 3%);
+  background: #101927;
+  box-shadow: 0 28px 80px rgb(0 0 0 / 35%), 0 0 70px rgb(103 245 210 / 7%);
   transform: rotate(1deg);
 }
 
@@ -478,9 +576,9 @@ button:focus-visible {
 .competency-card {
   min-height: 135px;
   padding: 18px;
-  border: 1px solid #30312b;
+  border: 1px solid #2c4052;
   border-radius: 5px;
-  background: linear-gradient(140deg, #191a16, #151612);
+  background: linear-gradient(140deg, #14202d, #101824);
 }
 
 .competency-index,
@@ -532,9 +630,10 @@ button:focus-visible {
   min-height: 355px;
   grid-template-columns: 1fr 250px;
   overflow: hidden;
-  border: 1px solid #30312b;
+  border: 1px solid #2c4052;
   border-radius: 7px;
-  background: linear-gradient(120deg, #191a16 55%, #1c1e17);
+  background: linear-gradient(120deg, #121c29 55%, #15202d);
+  box-shadow: 0 15px 48px rgb(0 0 0 / 14%);
 }
 
 .project-main {
@@ -585,9 +684,9 @@ button:focus-visible {
 .framework-config {
   margin-top: 20px;
   padding: 14px 15px 12px;
-  border: 1px solid #30312b;
+  border: 1px solid #304257;
   border-radius: 4px;
-  background: rgb(12 13 11 / 27%);
+  background: rgb(5 12 21 / 35%);
 }
 
 .config-heading {
@@ -874,6 +973,11 @@ button:focus-visible {
     padding: 12px;
   }
 
+  .language-picker {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+
   .hero {
     gap: 37px;
     padding-top: 79px;
@@ -882,6 +986,12 @@ button:focus-visible {
 
   .hero h1 {
     font-size: clamp(47px, 12vw, 66px);
+  }
+
+  .hero-mascot {
+    top: 12px;
+    right: -2px;
+    width: 76px;
   }
 
   .hero-description {
