@@ -24,4 +24,4 @@ Then open `http://localhost:8000`. The site has no build step or npm dependencie
 
 The `dudutronic.github.io` repository is published at <https://dudutronic.github.io>. The workflow in `.github/workflows/pages.yml` deploys the repository root on pushes to `main` and on manual runs. Set **Settings → Pages → Source** to **GitHub Actions**.
 
-The site's mascot and arcade/sci-fi visual details are original artwork, not characters or quotes from existing franchises.
+The mascot, comic/manga stickers and arcade/sci-fi visual details are original artwork, not characters, logos or quotes from existing franchises.

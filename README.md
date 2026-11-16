@@ -27,5 +27,6 @@ Este site está preparado para o repositório `dudutronic.github.io`.
 
 Quando o deploy terminar, o site estará disponível em <https://dudutronic.github.io>.
 
-Os recursos visuais e a mascote do portfólio são ilustrações originais em estilo
-arcade/ficção científica, sem personagens ou frases de franquias existentes.
+Os recursos visuais, a mascote e os adesivos de quadrinhos/mangá são ilustrações
+originais em estilo arcade/ficção científica, sem personagens, logos ou frases
+de franquias existentes.

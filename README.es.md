@@ -24,4 +24,4 @@ Después abre `http://localhost:8000`. El sitio no requiere compilación ni depe
 
 El repositorio `dudutronic.github.io` se publica en <https://dudutronic.github.io>. El workflow `.github/workflows/pages.yml` despliega la raíz en cada push a `main` y en ejecuciones manuales. En **Settings → Pages → Source**, selecciona **GitHub Actions**.
 
-La mascota y los detalles visuales de arcade/ciencia ficción son ilustraciones originales, no personajes ni frases de franquicias existentes.
+La mascota, los stickers de cómic/manga y los detalles visuales de arcade/ciencia ficción son ilustraciones originales, no personajes, logos ni frases de franquicias existentes.

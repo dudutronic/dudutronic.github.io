@@ -261,6 +261,36 @@ main,
   letter-spacing: 0.12em;
 }
 
+.sticker-cloud {
+  position: absolute;
+  z-index: 2;
+  right: 13%;
+  bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  pointer-events: none;
+}
+
+.sticker {
+  width: 76px;
+  filter: drop-shadow(0 7px 8px rgb(0 0 0 / 35%));
+}
+
+.sticker-hero {
+  transform: rotate(-9deg) translateY(-5px);
+}
+
+.sticker-manga {
+  width: 70px;
+  transform: rotate(7deg) translateY(3px);
+}
+
+.sticker-burst {
+  width: 57px;
+  transform: rotate(11deg) translateY(-11px);
+}
+
 .eyebrow,
 .section-label,
 .project-category,
@@ -876,6 +906,19 @@ main,
 }
 
 @media (max-width: 800px) {
+  .sticker-cloud {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    justify-content: center;
+    margin-top: -22px;
+  }
+
+  .hero-mascot {
+    right: 0;
+    width: 96px;
+  }
+
   .hero {
     min-height: 0;
     grid-template-columns: 1fr;
@@ -992,6 +1035,18 @@ main,
     top: 12px;
     right: -2px;
     width: 76px;
+  }
+
+  .sticker {
+    width: 61px;
+  }
+
+  .sticker-manga {
+    width: 56px;
+  }
+
+  .sticker-burst {
+    width: 45px;
   }
 
   .hero-description {
