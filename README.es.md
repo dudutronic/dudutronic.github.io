@@ -8,9 +8,12 @@ La página `resume.html` muestra el currículum completo, sigue el idioma selecc
 
 ## Proyectos destacados
 
-- [Musi Playwright BDD](https://github.com/dudutronic/musica-ae-qa): TypeScript, Cucumber/Gherkin, contextos aislados, evidencias y CI.
-- [Musi Cypress E2E](https://github.com/dudutronic/musica-ae-qa-cypress): flujos de interfaz, responsividad, vídeos, capturas de fallos y CI.
-- [Musi Robot HTTP Smoke](https://github.com/dudutronic/musica-ae-qa-robot-api): verificaciones HTTP de solo lectura para rutas HTML públicas con Robot Framework, RequestsLibrary y CI. No presupone una API JSON no documentada.
+Los tres proyectos siguen presentados en el portafolio con detalles técnicos,
+frameworks y formatos de informes. Los repositorios y sus workflows son
+privados; el titular concede mediante invitación el acceso al código y los
+permisos de CI. El portafolio no contiene credenciales ni enlaces para clonar.
+
+Para solicitar acceso, contacta con <mailto:dudutronic@gmail.com>.
 
 ## Vista previa local
 
@@ -27,3 +30,5 @@ Después abre `http://localhost:8000`. El sitio no requiere compilación ni depe
 El repositorio `dudutronic.github.io` se publica en <https://dudutronic.github.io>. El workflow `.github/workflows/pages.yml` despliega la raíz en cada push a `main` y en ejecuciones manuales. En **Settings → Pages → Source**, selecciona **GitHub Actions**.
 
 La mascota, los stickers de cómic/manga y los detalles visuales de arcade/ciencia ficción son ilustraciones originales, no personajes, logos ni frases de franquicias existentes.
+
+Contacto profesional: [LinkedIn](https://www.linkedin.com/in/eduardo-henrique-nilo-de-souza/) · [Correo](mailto:dudutronic@gmail.com)

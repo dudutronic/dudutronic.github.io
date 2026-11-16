@@ -9,13 +9,12 @@ salvar uma cópia em PDF.
 
 ## Projetos em destaque
 
-- [Musi Playwright BDD](https://github.com/dudutronic/musica-ae-qa): TypeScript,
-  Cucumber/Gherkin, execução isolada, evidências e CI.
-- [Musi Cypress E2E](https://github.com/dudutronic/musica-ae-qa-cypress):
-  validação de fluxos, responsividade, evidências e CI.
-- [Musi Robot HTTP Smoke](https://github.com/dudutronic/musica-ae-qa-robot-api):
-  smoke HTTP somente de leitura em rotas públicas, com Robot Framework,
-  RequestsLibrary e CI. O escopo não presume uma API JSON não documentada.
+Os três projetos continuam apresentados na página, com detalhes técnicos,
+frameworks e formatos dos relatórios. Os repositórios e suas esteiras são
+privados; acesso ao código e execução da CI são concedidos pelo titular mediante
+convite. O portfólio não contém credenciais nem links para clonar os projetos.
+
+Para solicitar acesso, entre em contato por <mailto:dudutronic@gmail.com>.
 
 **Idiomas desta página:** [Português](README.md) · [English](README.en.md) · [Español](README.es.md)
 
@@ -32,3 +31,5 @@ Quando o deploy terminar, o site estará disponível em <https://dudutronic.gith
 Os recursos visuais, a mascote e os adesivos de quadrinhos/mangá são ilustrações
 originais em estilo arcade/ficção científica, sem personagens, logos ou frases
 de franquias existentes.
+
+Contato profissional: [LinkedIn](https://www.linkedin.com/in/eduardo-henrique-nilo-de-souza/) · [E-mail](mailto:dudutronic@gmail.com)

@@ -8,9 +8,9 @@ The `resume.html` page presents the full resume, follows the selected site langu
 
 ## Featured projects
 
-- [Musi Playwright BDD](https://github.com/dudutronic/musica-ae-qa): TypeScript, Cucumber/Gherkin, isolated browser contexts, evidence and CI.
-- [Musi Cypress E2E](https://github.com/dudutronic/musica-ae-qa-cypress): UI flows, responsive checks, videos, failure screenshots and CI.
-- [Musi Robot HTTP Smoke](https://github.com/dudutronic/musica-ae-qa-robot-api): read-only HTTP checks for public HTML routes using Robot Framework, RequestsLibrary and CI. It does not assume an undocumented JSON API.
+All three projects remain showcased on the portfolio with technical details, frameworks and report formats. Their repositories and workflows are private; the owner grants source access and CI permissions by invitation. The portfolio contains no credentials or clone links.
+
+To request access, contact <mailto:dudutronic@gmail.com>.
 
 ## Local preview
 
@@ -27,3 +27,5 @@ Then open `http://localhost:8000`. The site has no build step or npm dependencie
 The `dudutronic.github.io` repository is published at <https://dudutronic.github.io>. The workflow in `.github/workflows/pages.yml` deploys the repository root on pushes to `main` and on manual runs. Set **Settings → Pages → Source** to **GitHub Actions**.
 
 The mascot, comic/manga stickers and arcade/sci-fi visual details are original artwork, not characters, logos or quotes from existing franchises.
+
+Professional contact: [LinkedIn](https://www.linkedin.com/in/eduardo-henrique-nilo-de-souza/) · [Email](mailto:dudutronic@gmail.com)
