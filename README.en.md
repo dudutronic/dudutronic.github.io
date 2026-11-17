@@ -18,7 +18,9 @@ python -m unittest discover -s tests -v
 
 ## Complementary personal projects
 
-Anyone can explore each suite's scope, frameworks, configuration, coverage, and report formats on the portfolio. The repositories, CI runs, and raw artifacts remain private. The site does not grant repository read access: on GitHub, that permission also allows cloning. Visitors can request a guided walkthrough without source access. No credentials are shown.
+Each project card opens a page with a narrated video, an explanation of the test flow and run commands. The Playwright page also includes a video walkthrough of its GitHub Actions CI/CD pipeline. Where native browser recording did not capture the interface, real page screenshots illustrate the steps; the displayed results come from test runs.
+
+The repositories, CI runs, and raw artifacts remain private. The site does not grant repository read access: on GitHub, that permission also allows cloning. Visitors can request a guided walkthrough without source access. No credentials are shown.
 
 To request a guided walkthrough, contact <mailto:dudutronic@gmail.com>.
 

@@ -22,12 +22,16 @@ python -m unittest discover -s tests -v
 
 ## Projetos pessoais complementares
 
-Qualquer visitante pode explorar o escopo, frameworks, configurações, cobertura
-e formatos dos relatórios no próprio portfólio. Os repositórios, as execuções da
-CI e os artefatos brutos permanecem privados. O site não concede acesso de
-leitura aos repositórios: no GitHub, esse nível de permissão também permite
-clonar o código. É possível solicitar uma demonstração guiada sem acesso ao
-código-fonte. Nenhuma credencial é exibida.
+Cada cartão abre uma página com explicação do fluxo, comandos de execução e
+vídeo narrado. A página Playwright também inclui um passo a passo em vídeo da
+esteira CI/CD do GitHub Actions. Quando a gravação nativa do navegador não
+capturou a interface, o vídeo usa capturas reais da página para ilustrar os
+passos; os resultados apresentados vêm das execuções de teste.
+
+Os repositórios, as execuções da CI e os artefatos brutos permanecem privados.
+O site não concede acesso de leitura aos repositórios: no GitHub, esse nível de
+permissão também permite clonar o código. É possível solicitar uma demonstração
+guiada sem acesso ao código-fonte. Nenhuma credencial é exibida.
 
 Para solicitar uma demonstração guiada, entre em contato por
 <mailto:dudutronic@gmail.com>.

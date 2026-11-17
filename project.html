@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Detalhes, fluxo de testes e demonstrações dos projetos de Eduardo Souza.">
+    <meta name="theme-color" content="#0b1019">
+    <title>Projeto — Eduardo Souza</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=corporate-profile-v6">
+    <script src="script.js?v=corporate-profile-v6" defer></script>
+    <script src="project-detail.js?v=project-details-v1" defer></script>
+  </head>
+  <body data-page="project">
+    <a class="skip-link" href="#project-content" data-i18n="skip">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <nav class="navigation shell" aria-label="Navegação principal" data-i18n-aria="navLabel">
+        <a class="wordmark" href="index.html" aria-label="Eduardo Souza, início" data-i18n-aria="homeLabel">
+          <span class="wordmark-mark" aria-hidden="true">e<span>.</span></span>
+          <span class="wordmark-name">Eduardo Souza</span>
+        </a>
+        <div class="navigation-links" id="navigation-links">
+          <a href="index.html#sobre" data-i18n="navExperience">Experiência</a>
+          <a href="index.html#competencias" data-i18n="navSkills">Competências</a>
+          <a href="index.html#projetos" data-i18n="navProjects">Projetos</a>
+          <a class="nav-resume" href="resume.html" data-i18n="navResume">Currículo</a>
+          <a class="nav-contact" href="index.html#contato"><span data-i18n="navContact">Vamos conversar</span> <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="header-controls">
+          <div class="language-picker" role="group" aria-label="Selecionar idioma" data-i18n-aria="languageLabel">
+            <button type="button" lang="pt-BR" data-language="pt" aria-pressed="true">PT</button>
+            <button type="button" lang="en" data-language="en" aria-pressed="false">EN</button>
+            <button type="button" lang="es" data-language="es" aria-pressed="false">ES</button>
+          </div>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="navigation-links"
+            aria-label="Abrir menu"
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="project-detail section-shell" id="project-content">
+      <a class="project-detail-back" href="index.html#projetos" data-copy="backToProjects">← Voltar aos projetos</a>
+      <header class="project-detail-heading">
+        <p class="section-label" data-copy="eyebrow">PROJETO · DETALHES</p>
+        <h1 data-copy="title">Projeto</h1>
+        <p class="project-detail-summary" data-copy="summary"></p>
+        <div class="project-detail-tags" data-copy-list="tags" aria-label="Tecnologias"></div>
+      </header>
+
+      <section class="project-detail-video" aria-labelledby="main-video-title">
+        <div class="project-detail-section-heading">
+          <div>
+            <p class="section-label" data-copy="videoEyebrow">DEMONSTRAÇÃO NARRADA</p>
+            <h2 id="main-video-title" data-copy="videoTitle">Execução do projeto</h2>
+          </div>
+          <span class="project-video-duration" data-copy="videoBadge">VÍDEO</span>
+        </div>
+        <video class="project-video-player" controls preload="metadata" playsinline aria-labelledby="main-video-title" data-main-video>
+          <source type="video/mp4">
+          Seu navegador não oferece suporte a vídeo HTML5.
+        </video>
+        <p class="project-video-note" data-copy="videoNote"></p>
+      </section>
+
+      <div class="project-detail-grid">
+        <section class="project-detail-panel">
+          <p class="section-label" data-copy="flowEyebrow">COMO FUNCIONA</p>
+          <h2 data-copy="flowTitle">Fluxo do projeto</h2>
+          <ol class="project-detail-steps" data-copy-list="flow"></ol>
+        </section>
+        <section class="project-detail-panel">
+          <p class="section-label" data-copy="executionEyebrow">EXECUÇÃO</p>
+          <h2 data-copy="executionTitle">Como executar</h2>
+          <p class="project-detail-copy" data-copy="executionDescription"></p>
+          <div class="project-command-list" data-copy-commands="commands"></div>
+          <p class="project-detail-note" data-copy="safetyNote"></p>
+        </section>
+      </div>
+
+      <section class="project-ci-section" data-ci-section hidden aria-labelledby="ci-video-title">
+        <div class="project-detail-section-heading">
+          <div>
+            <p class="section-label" data-copy="ciEyebrow">INTEGRAÇÃO CONTÍNUA</p>
+            <h2 id="ci-video-title" data-copy="ciTitle">Passo a passo da esteira CI/CD</h2>
+          </div>
+          <span class="project-video-duration" data-copy="ciBadge">GITHUB ACTIONS</span>
+        </div>
+        <p class="project-detail-copy" data-copy="ciDescription"></p>
+        <video class="project-video-player" controls preload="metadata" playsinline aria-labelledby="ci-video-title" data-ci-video>
+          <source type="video/mp4">
+          Seu navegador não oferece suporte a vídeo HTML5.
+        </video>
+        <ol class="project-detail-steps project-ci-steps" data-copy-list="ciSteps"></ol>
+        <p class="project-detail-note" data-copy="ciNote"></p>
+      </section>
+
+      <section class="project-contact-panel">
+        <p data-copy="accessNote"></p>
+        <a class="project-link" href="mailto:dudutronic@gmail.com?subject=Projeto%20Musi%20QA">
+          <span data-copy="contactLink">Falar sobre o projeto</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner shell">
+        <a class="wordmark footer-wordmark" href="index.html" aria-label="Eduardo Souza, início" data-i18n-aria="homeLabel">
+          <span class="wordmark-mark" aria-hidden="true">e<span>.</span></span>
+          <span class="wordmark-name">Eduardo Souza</span>
+        </a>
+        <p data-i18n="footerNote">Feito com cuidado e bons testes.</p>
+        <span>© <span id="current-year">2026</span> Eduardo Souza</span>
+      </div>
+    </footer>
+  </body>
+</html>

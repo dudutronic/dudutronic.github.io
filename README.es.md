@@ -18,8 +18,13 @@ python -m unittest discover -s tests -v
 
 ## Proyectos personales complementarios
 
-Cualquier visitante puede consultar en el portafolio el alcance, los
-frameworks, las configuraciones, la cobertura y los formatos de los informes.
+Cada tarjeta abre una página con un vídeo narrado, la explicación del flujo de
+pruebas y los comandos de ejecución. La página de Playwright también incluye un
+recorrido en vídeo de su canalización CI/CD de GitHub Actions. Cuando la
+grabación nativa del navegador no capturó la interfaz, se usan capturas reales
+de la página para ilustrar los pasos; los resultados mostrados proceden de las
+ejecuciones de pruebas.
+
 Los repositorios, las ejecuciones de CI y los artefactos originales permanecen
 privados. El sitio no concede acceso de lectura a los repositorios: en GitHub,
 ese permiso también permite clonar el código. Se puede solicitar una
