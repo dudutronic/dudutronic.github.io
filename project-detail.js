@@ -63,7 +63,7 @@ const projectCopy = {
         safetyNote: "O smoke validado acessa somente telas públicas de login e cadastro; não autentica nem cria contas. Cenários protegidos por credenciais exigem uma conta autorizada e secrets configurados na CI.",
         ci: {
           description: "O workflow Testes BDD executa automaticamente em push e pull request para main. Também aceita execução manual com uma tag Cucumber e publica a pasta reports como artefato.",
-          video: "assets/videos/05-playwright-ci-cd.mp4",
+          video: "assets/videos/05-playwright-ci-cd.mp4?v=run-4-20261117",
           steps: [
             "Abra Actions no repositório e selecione o workflow Testes BDD.",
             "Clique em Run workflow, escolha a branch e informe uma tag, por exemplo @smoke ou @responsividade.",
@@ -181,7 +181,7 @@ const projectCopy = {
         safetyNote: "The validated smoke flow only opens public login and registration pages; it does not authenticate or create accounts. Credential-protected scenarios require an authorized account and CI secrets.",
         ci: {
           description: "The Testes BDD workflow runs automatically on pushes and pull requests to main. It also supports manual runs with a Cucumber tag and uploads the reports folder as an artifact.",
-          video: "assets/videos/05-playwright-ci-cd.mp4",
+          video: "assets/videos/05-playwright-ci-cd.mp4?v=run-4-20261117",
           steps: [
             "Open Actions in the repository and select the Testes BDD workflow.",
             "Click Run workflow, choose a branch and enter a tag such as @smoke or @responsividade.",
@@ -299,7 +299,7 @@ const projectCopy = {
         safetyNote: "El smoke validado solo abre las páginas públicas de inicio de sesión y registro; no autentica ni crea cuentas. Los escenarios protegidos requieren una cuenta autorizada y secrets en CI.",
         ci: {
           description: "El workflow Testes BDD se ejecuta automáticamente en pushes y pull requests a main. También admite ejecuciones manuales con una etiqueta Cucumber y publica la carpeta reports como artefacto.",
-          video: "assets/videos/05-playwright-ci-cd.mp4",
+          video: "assets/videos/05-playwright-ci-cd.mp4?v=run-4-20261117",
           steps: [
             "Abre Actions en el repositorio y selecciona el workflow Testes BDD.",
             "Haz clic en Run workflow, elige una rama e indica una etiqueta como @smoke o @responsividade.",
@@ -358,8 +358,8 @@ const projectCopy = {
 const projectId = new URLSearchParams(window.location.search).get("id");
 const projectVideos = {
   "qa-copilot": {
-    src: "assets/videos/01-qa-copilot.mp4",
-    poster: "assets/video-posters/01-qa-copilot.jpg"
+    src: "assets/videos/01-qa-copilot.mp4?v=practical-20261117",
+    poster: "assets/video-posters/01-qa-copilot.jpg?v=practical-20261117"
   },
   "playwright-bdd": {
     src: "assets/videos/02-playwright-bdd.mp4",
@@ -374,7 +374,7 @@ const projectVideos = {
     poster: "assets/video-posters/04-robot-http-smoke.jpg"
   }
 };
-const ciVideoPoster = "assets/video-posters/05-playwright-ci-cd.jpg";
+const ciVideoPoster = "assets/video-posters/05-playwright-ci-cd.jpg?v=run-4-20261117";
 const projectHeading = document.querySelector(".project-detail-heading");
 const notFound = document.createElement("p");
 notFound.className = "project-detail-error";
