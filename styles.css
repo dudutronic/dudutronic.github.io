@@ -148,10 +148,6 @@ main,
   font-weight: 700;
 }
 
-.wordmark-mark span {
-  color: var(--accent);
-}
-
 .wordmark-name {
   font-size: 14px;
   font-weight: 600;
@@ -274,14 +270,6 @@ main,
   gap: 10px;
   margin: 0 0 22px;
   color: #bbbdaf;
-}
-
-.status-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 12px rgb(211 243 107 / 40%);
 }
 
 .hero h1,
