@@ -5,19 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Portfólio de Eduardo Souza: qualidade de software, automação de testes e desenvolvimento de soluções confiáveis."
+      content="Eduardo Souza, Senior Software Quality Analyst com mais de 7 anos de experiência em QA e automação de testes web, mobile e API."
     >
     <meta name="theme-color" content="#0b1019">
-    <title>Eduardo Souza — QA & Automação</title>
+    <title>Eduardo Souza — Senior Software Quality Analyst</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    >
-    <link rel="stylesheet" href="styles.css?v=healthcheck-v1">
-    <script src="script.js?v=public-showcase-v1" defer></script>
+    <link rel="stylesheet" href="styles.css?v=corporate-profile-v5">
+    <script src="script.js?v=corporate-profile-v5" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#conteudo" data-i18n="skip">Pular para o conteúdo</a>
@@ -29,7 +23,7 @@
           <span class="wordmark-name">Eduardo Souza</span>
         </a>
         <div class="navigation-links" id="navigation-links">
-          <a href="#sobre" data-i18n="navAbout">Sobre</a>
+          <a href="#sobre" data-i18n="navExperience">Experiência</a>
           <a href="#competencias" data-i18n="navSkills">Competências</a>
           <a href="#projetos" data-i18n="navProjects">Projetos</a>
           <a class="nav-resume" href="resume.html" data-i18n="navResume">Currículo</a>
@@ -58,14 +52,28 @@
     <main id="conteudo">
       <section class="hero shell" id="inicio" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="status-dot"></span> <span data-i18n="heroEyebrow">QA · AUTOMAÇÃO · QUALIDADE</span></p>
-          <h1 id="hero-title" data-i18n-html="heroTitle">Software melhor<br>começa com <span>bons testes.</span></h1>
+          <p class="eyebrow"><span class="status-dot"></span> <span data-i18n="heroEyebrow">MAIS DE 7 ANOS · QA & AUTOMAÇÃO</span></p>
+          <h1 id="hero-title" data-i18n="heroTitle">Eduardo Souza</h1>
+          <p class="hero-role" data-i18n="heroRole">Senior Software Quality Analyst</p>
           <p class="hero-description" data-i18n="heroDescription">
-            Sou Eduardo, profissional de QA focado em automação E2E, testes
-            funcionais e qualidade integrada ao ciclo de desenvolvimento.
+            Profissional sênior de QA com mais de 7 anos de atuação em qualidade e automação
+            para produtos financeiros, saúde digital e mobilidade, com testes web, mobile e API.
           </p>
+          <div class="hero-stack" aria-label="Stack principal" data-i18n-aria="heroStackLabel">
+            <p data-i18n="heroStackLabel">STACK PRINCIPAL</p>
+            <ul class="stack-list">
+              <li>Robot Framework</li>
+              <li>Python</li>
+              <li>Cypress</li>
+              <li>BDD / Gherkin</li>
+              <li>API Testing</li>
+              <li>Mobile Automation</li>
+              <li>Playwright</li>
+              <li>Appium</li>
+            </ul>
+          </div>
           <div class="hero-actions">
-            <a class="button button-primary" href="#projetos"><span data-i18n="heroWork">Conheça meu trabalho</span> <span aria-hidden="true">↓</span></a>
+            <a class="button button-primary" href="#projetos"><span data-i18n="heroWork">Ver projetos em destaque</span> <span aria-hidden="true">↓</span></a>
           </div>
           <div class="hero-socials" aria-label="Contato e redes profissionais" data-i18n-aria="heroContactLabel">
             <a class="hero-social-link" href="https://www.linkedin.com/in/eduardo-henrique-nilo-de-souza/" target="_blank" rel="noreferrer">
@@ -103,118 +111,117 @@
             <div class="terminal-result"><span aria-hidden="true">✓</span> <span data-i18n="terminalResult">Cenário validado</span> <span class="result-time">1.24s</span></div>
           </div>
         </div>
-        <div class="hero-mascot" aria-hidden="true">
-          <svg viewBox="0 0 120 120" role="presentation">
-            <path d="M60 8v14M53 8h14" fill="none" stroke="currentColor" stroke-width="4" />
-            <rect x="22" y="24" width="76" height="66" rx="15" fill="#141d2a" stroke="currentColor" stroke-width="3" />
-            <path d="M22 43h-8v22h8m76-22h8v22h-8M38 90v12m44-12v12" fill="none" stroke="currentColor" stroke-width="4" />
-            <rect x="36" y="42" width="17" height="17" rx="4" fill="#67f5d2" />
-            <rect x="67" y="42" width="17" height="17" rx="4" fill="#b791ff" />
-            <path d="M42 73h36" fill="none" stroke="#f3bd65" stroke-width="4" stroke-linecap="round" />
-            <path d="m60 14 4 5-4 5-4-5z" fill="#f3bd65" />
-          </svg>
-          <span>QA-BOT / ONLINE</span>
-        </div>
-        <div class="sticker-cloud" aria-hidden="true">
-          <svg class="sticker sticker-hero" viewBox="0 0 120 120">
-            <path d="M60 4 72 12 88 8 94 23 109 31 103 47 115 60 103 73 108 90 91 96 85 111 69 106 56 117 44 105 27 109 22 93 7 87 13 71 3 58 15 45 11 28 28 22 34 8 50 13Z" fill="#fffdf5" stroke="#fffdf5" stroke-width="5" stroke-linejoin="round" />
-            <path d="m23 44 15-24 22 9 23-11 20 24-7 51-18 17H42L24 91Z" fill="#172333" stroke="#172333" stroke-width="3" stroke-linejoin="round" />
-            <path d="m25 54-14 40 29-8m55-31 16 39-30-8" fill="#b791ff" stroke="#172333" stroke-width="4" stroke-linejoin="round" />
-            <path d="m39 54 18 5m7 0 18-5" fill="none" stroke="#67f5d2" stroke-width="5" stroke-linecap="round" />
-            <path d="m43 79 15-8 16 8-16 20Z" fill="#f3bd65" stroke="#fffdf5" stroke-width="3" stroke-linejoin="round" />
-          </svg>
-          <svg class="sticker sticker-manga" viewBox="0 0 120 120">
-            <path d="M60 4 73 14 90 10 96 27 112 35 106 52 117 66 104 79 107 97 88 100 78 115 61 107 46 117 36 102 18 102 19 83 5 72 15 56 8 39 27 32 31 14 49 19Z" fill="#fffdf5" stroke="#fffdf5" stroke-width="5" stroke-linejoin="round" />
-            <path d="M26 48 20 27l20 9 14-20 11 18 22-13-5 25 17 10-17 11-2 26-21-9-18 13-6-21-23-6 15-16Z" fill="#25233a" stroke="#25233a" stroke-width="3" stroke-linejoin="round" />
-            <path d="M31 57q1-25 29-26 28 1 29 26l-8 29-21 17-22-17Z" fill="#ffcba9" stroke="#25233a" stroke-width="3" stroke-linejoin="round" />
-            <path d="m34 54 17 5m18 0 17-5" fill="none" stroke="#25233a" stroke-width="6" stroke-linecap="round" />
-            <path d="m39 66 10 2m22 0 10-2" fill="none" stroke="#25233a" stroke-width="4" stroke-linecap="round" />
-            <path d="M53 82q7 5 14 0" fill="none" stroke="#b65c72" stroke-width="3" stroke-linecap="round" />
-            <path d="m59 37 2 6" stroke="#fffdf5" stroke-width="3" stroke-linecap="round" />
-          </svg>
-          <svg class="sticker sticker-burst" viewBox="0 0 120 120">
-            <path d="m60 3 10 25 22-17-2 29 29-2-18 22 25 10-26 10 17 22-29-2 2 29-22-18-8 26-11-25-21 18 2-29-29 2 18-22L2 71l26-10L10 39l29 2-2-29 22 18Z" fill="#f3bd65" stroke="#fffdf5" stroke-width="6" stroke-linejoin="round" />
-            <path d="m67 21-27 39h18l-7 38 31-48H62Z" fill="#172333" stroke="#172333" stroke-width="2" stroke-linejoin="round" />
-          </svg>
-        </div>
-
         <a class="scroll-hint" href="#sobre"><span class="scroll-line"></span> <span data-i18n="scrollHint">DESÇA PARA EXPLORAR</span></a>
         <span class="hero-index" aria-hidden="true">01 / 04</span>
       </section>
 
-      <section class="about section-shell" id="sobre" aria-labelledby="about-title">
-        <div class="section-label"><span>01</span> <span data-i18n="aboutLabel">SOBRE MIM</span></div>
-        <div class="about-content">
-          <h2 id="about-title" data-i18n-html="aboutTitle">Qualidade não é uma etapa.<br>É parte de <span>cada decisão.</span></h2>
-          <div class="about-details">
-            <p data-i18n="aboutDescription">
-              Gosto de entender como as pessoas usam um produto e traduzir isso
-              em validações que fazem sentido. Trabalho com automação orientada
-              a comportamento para tornar os fluxos mais fáceis de entender,
-              manter e evoluir.
-            </p>
-            <div class="skill-list" aria-label="Tecnologias e práticas" data-i18n-aria="skillsLabel">
-              <span>TypeScript</span>
-              <span>Playwright</span>
-              <span>Cucumber</span>
-              <span>BDD</span>
-              <span>JavaScript</span>
-              <span>Cypress</span>
-              <span>GitHub Actions</span>
-            </div>
+      <section class="experience section-shell" id="sobre" aria-labelledby="experience-title">
+        <div class="section-label"><span>01</span> <span data-i18n="experienceLabel">EXPERIÊNCIA CORPORATIVA</span></div>
+        <div class="section-heading">
+          <div>
+            <h2 id="experience-title"><span data-i18n="experienceTitle">Experiência profissional</span><span class="accent-dot">.</span></h2>
           </div>
+          <p data-i18n="experienceIntro">Automação e qualidade de software em produtos financeiros, saúde digital e mobilidade.</p>
         </div>
+        <div class="experience-grid">
+          <article class="experience-card experience-featured">
+            <div class="experience-card-heading">
+              <div>
+                <p class="experience-period" data-i18n="experienceNttPeriod">Dez/2024 – Atual</p>
+                <h3 data-i18n="experienceNttRole">Senior Automation Analyst</h3>
+                <p class="experience-company">NTT DATA</p>
+              </div>
+              <span class="experience-tag" data-i18n="experienceCurrent">ATUAL</span>
+            </div>
+            <p class="experience-clients" data-i18n="experienceNttClients">Bradesco · Serasa Experian · Itaú / Conta Global</p>
+            <ul class="experience-highlights">
+              <li data-i18n="experienceNtt1">Automação web com Playwright e integração dos testes ao CI/CD usando GitHub Actions e Jira/Xray.</li>
+              <li data-i18n="experienceNtt2">Automação mobile com Robot Framework e Python em device farm/lab.</li>
+              <li data-i18n="experienceNtt3">Testes de API, análise de vulnerabilidades e monitoramento com Insomnia, Postman, Veracode e Datadog.</li>
+              <li data-i18n="experienceNtt4">Uso de Copilot e Cloud AI para apoiar cenários de teste e documentação.</li>
+            </ul>
+          </article>
+          <article class="experience-card">
+            <div class="experience-card-heading">
+              <div>
+                <p class="experience-period" data-i18n="experienceSpreadPeriod">Abr/2024 – Dez/2024</p>
+                <h3 data-i18n="experienceSpreadRole">Senior QA Analyst</h3>
+                <p class="experience-company">Spread · Caixa Econômica Federal</p>
+              </div>
+            </div>
+            <p class="experience-clients" data-i18n="experienceSpreadClients">Caixa+ · Open Finance</p>
+            <ul class="experience-highlights">
+              <li data-i18n="experienceSpread1">Testes mobile Android/iOS e testes de API com Postman.</li>
+              <li data-i18n="experienceSpread2">Testes funcionais, exploratórios e de regressão, com cenários documentados em BDD.</li>
+            </ul>
+          </article>
+          <article class="experience-card">
+            <div class="experience-card-heading">
+              <div>
+                <p class="experience-period" data-i18n="experienceVittaPeriod">Mar/2021 – Mar/2024</p>
+                <h3 data-i18n="experienceVittaRole">Senior QA Analyst</h3>
+                <p class="experience-company">Vitta Saúde · Stone</p>
+              </div>
+            </div>
+            <p class="experience-clients" data-i18n="experienceVittaClients">Saúde digital · Stone</p>
+            <ul class="experience-highlights">
+              <li data-i18n="experienceVitta1">Estruturou a área de qualidade e adotou BDD/Gherkin como prática padrão.</li>
+              <li data-i18n="experienceVitta2">Automação mobile com Robot Framework, Appium e Python; capacitação de times de produto e desenvolvimento.</li>
+            </ul>
+          </article>
+        </div>
+        <p class="experience-previous"><strong data-i18n="experiencePreviousLabel">Experiências anteriores:</strong> <span data-i18n="experiencePrevious">Groovetech · Accenture / Itaú Auto 2.0</span></p>
       </section>
 
       <section class="competencies section-shell" id="competencias" aria-labelledby="competencies-title">
         <div class="section-heading">
           <div>
-            <div class="section-label"><span>02</span> <span data-i18n="skillsLabelTitle">COMPETÊNCIAS EM PRÁTICA</span></div>
-            <h2 id="competencies-title"><span data-i18n="skillsTitle">QA de ponta a ponta</span><span class="accent-dot">.</span></h2>
+            <div class="section-label"><span>02</span> <span data-i18n="skillsLabelTitle">STACK & PRÁTICAS</span></div>
+            <h2 id="competencies-title"><span data-i18n="skillsTitle">Competências técnicas</span><span class="accent-dot">.</span></h2>
           </div>
-          <p data-i18n-html="skillsIntro">Mais que ferramentas: qualidade<br>aplicada ao produto e ao time.</p>
+          <p data-i18n-html="skillsIntro">Automação, testes de produto e qualidade<br>integrada ao ciclo de desenvolvimento.</p>
         </div>
 
         <div class="competency-grid">
           <article class="competency-card">
-            <span class="competency-index" data-i18n="skill1Index">01 / E2E</span>
-            <h3 data-i18n="skill1Title">Automação de fluxos</h3>
-            <p data-i18n="skill1Description">Login, cadastro e jornadas reais validados de ponta a ponta.</p>
+            <span class="competency-index" data-i18n="skill1Index">01 / WEB · E2E</span>
+            <h3 data-i18n="skill1Title">Automação de testes</h3>
+            <p data-i18n="skill1Description">Robot Framework, Playwright e Cypress para fluxos web e end-to-end.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index" data-i18n="skill2Index">02 / BDD</span>
-            <h3 data-i18n="skill2Title">Cenários legíveis</h3>
-            <p data-i18n="skill2Description">Gherkin aproxima regras de negócio, QA e desenvolvimento.</p>
+            <span class="competency-index" data-i18n="skill2Index">02 / MOBILE</span>
+            <h3 data-i18n="skill2Title">Automação mobile</h3>
+            <p data-i18n="skill2Description">Appium, Robot Framework e Python em aplicações Android e iOS.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index" data-i18n="skill3Index">03 / UI</span>
-            <h3 data-i18n="skill3Title">Testes funcionais</h3>
-            <p data-i18n="skill3Description">Campos, validações, estados, navegação e feedback da interface.</p>
+            <span class="competency-index" data-i18n="skill3Index">03 / API</span>
+            <h3 data-i18n="skill3Title">Testes de serviços</h3>
+            <p data-i18n="skill3Description">Postman, Insomnia e RequestsLibrary para validar APIs e respostas HTTP.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index" data-i18n="skill4Index">04 / COMPATIBILIDADE</span>
-            <h3 data-i18n="skill4Title">Browsers & telas</h3>
-            <p data-i18n="skill4Description">Playwright com Chromium, Firefox e WebKit; Cypress em telas mobile, tablet e desktop.</p>
+            <span class="competency-index" data-i18n="skill4Index">04 / BDD</span>
+            <h3 data-i18n="skill4Title">BDD / Gherkin</h3>
+            <p data-i18n="skill4Description">Cenários legíveis para alinhar regras de negócio, QA e desenvolvimento.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index" data-i18n="skill5Index">05 / CI</span>
-            <h3 data-i18n="skill5Title">Qualidade contínua</h3>
-            <p data-i18n="skill5Description">GitHub Actions executa verificações a cada push e pull request.</p>
+            <span class="competency-index" data-i18n="skill5Index">05 / CI/CD</span>
+            <h3 data-i18n="skill5Title">CI/CD</h3>
+            <p data-i18n="skill5Description">GitHub Actions e Jira/Xray para execução e acompanhamento dos testes.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index" data-i18n="skill6Index">06 / EVIDÊNCIAS</span>
-            <h3 data-i18n="skill6Title">Falhas investigáveis</h3>
-            <p data-i18n="skill6Description">Relatórios, screenshots, vídeos e artefatos ajudam a entender resultados.</p>
+            <span class="competency-index" data-i18n="skill6Index">06 / FUNCIONAL</span>
+            <h3 data-i18n="skill6Title">Testes funcionais</h3>
+            <p data-i18n="skill6Description">Cobertura funcional, exploratória, regressiva e validação de interfaces.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index" data-i18n="skill7Index">07 / BACK-END HTTP</span>
-            <h3 data-i18n="skill7Title">Validação de serviços</h3>
-            <p data-i18n="skill7Description">Requests de leitura verificam status, tipo de conteúdo e resposta das rotas públicas.</p>
+            <span class="competency-index" data-i18n="skill7Index">07 / PROCESSO</span>
+            <h3 data-i18n="skill7Title">Gestão da qualidade</h3>
+            <p data-i18n="skill7Description">Jira, Xray, Qase e Confluence para organizar testes, evidências e trabalho do time.</p>
           </article>
           <article class="competency-card">
-            <span class="competency-index" data-i18n="skill8Index">08 / KEYWORD-DRIVEN</span>
-            <h3 data-i18n="skill8Title">Robot Framework</h3>
-            <p data-i18n="skill8Description">Keywords reutilizáveis e RequestsLibrary organizados em resources no padrão Page Object.</p>
+            <span class="competency-index" data-i18n="skill8Index">08 / OBSERVABILIDADE</span>
+            <h3 data-i18n="skill8Title">Análise & monitoramento</h3>
+            <p data-i18n="skill8Description">Veracode e Datadog apoiam análise de vulnerabilidades e monitoramento.</p>
           </article>
         </div>
       </section>
@@ -222,11 +229,93 @@
       <section class="projects section-shell" id="projetos" aria-labelledby="projects-title">
         <div class="section-heading">
           <div>
-            <div class="section-label"><span>03</span> <span data-i18n="projectsLabel">TRABALHO EM DESTAQUE</span></div>
+            <div class="section-label"><span>03</span> <span data-i18n="projectsLabel">PROJETOS PESSOAIS</span></div>
             <h2 id="projects-title"><span data-i18n="projectsTitle">Projetos</span><span class="accent-dot">.</span></h2>
           </div>
-          <p data-i18n-html="projectsIntro">Frameworks distintos.<br>Configuração real e execução contínua.</p>
+          <p data-i18n-html="projectsIntro">Iniciativas práticas que complementam<br>a experiência em produtos corporativos.</p>
         </div>
+
+        <article class="project-card project-card-copilot" aria-labelledby="copilot-title">
+          <div class="project-main">
+            <div class="project-topline">
+              <span class="project-category" data-i18n="copilotCategory">AI SKILL · PROJETO EM DESTAQUE</span>
+              <span class="project-stars" data-i18n="copilotMode">OFFLINE · HEURÍSTICAS LOCAIS</span>
+            </div>
+            <h3 id="copilot-title">QA Copilot Skill</h3>
+            <p class="project-description" data-i18n="copilotDescription">
+              PoC local em Python para rascunhar cenários BDD, analisar assinaturas
+              conhecidas em logs de automação e gerar payloads sintéticos a partir
+              de contratos JSON. Requisitos, logs e dados não saem da máquina.
+            </p>
+            <div class="project-tags" aria-label="Tecnologias do projeto QA Copilot Skill" data-i18n-aria="copilotTechLabel">
+              <span>Python</span>
+              <span>Robot Framework</span>
+              <span>Cypress</span>
+              <span>Appium</span>
+              <span>BDD / Gherkin</span>
+              <span>API Testing</span>
+            </div>
+            <div class="framework-config copilot-guide">
+              <p class="config-heading" data-i18n="copilotGuideTitle">COMO EXPERIMENTAR</p>
+              <p class="copilot-guide-note" data-i18n="copilotGuideNote">Execute os comandos dentro da pasta qa-copilot-skill/. Para rodar tudo de uma vez:</p>
+              <code class="copilot-demo-command">python -m qa_copilot_skill.cli demo</code>
+              <ol class="copilot-steps">
+                <li>
+                  <span class="copilot-step-number">01</span>
+                  <div class="copilot-step-content">
+                    <strong data-i18n="copilotBddLabel">BDD / GHERKIN</strong>
+                    <p data-i18n="copilotBddHelp">Informe uma história de usuário; receba um fluxo principal e sugestões de validação.</p>
+                    <code>python -m qa_copilot_skill.cli bdd --requirement "Como cliente, quero consultar meu saldo para acompanhar meus gastos."</code>
+                    <span class="copilot-output" data-i18n="copilotBddOutput">Saída: três cenários em Dado / Quando / Então; casos sem critérios ficam marcados para revisão.</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="copilot-step-number">02</span>
+                  <div class="copilot-step-content">
+                    <strong data-i18n="copilotLogLabel">TROUBLESHOOTING DE LOGS</strong>
+                    <p data-i18n="copilotLogHelp">Analise o exemplo sanitizado de uma falha Cypress.</p>
+                    <code>python -m qa_copilot_skill.cli troubleshoot --log-file examples/cypress_failure.log</code>
+                    <span class="copilot-output" data-i18n="copilotLogOutput">Saída: framework provável, causa e próximos pontos para investigar.</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="copilot-step-number">03</span>
+                  <div class="copilot-step-content">
+                    <strong data-i18n="copilotPayloadLabel">PAYLOAD DE API</strong>
+                    <p data-i18n="copilotPayloadHelp">Gere dados sintéticos usando o contrato JSON de exemplo.</p>
+                    <code>python -m qa_copilot_skill.cli payload --contract examples/api_contract.json --seed 42</code>
+                    <span class="copilot-output" data-i18n="copilotPayloadOutput">Saída: JSON com valores reproduzíveis para testes de backend.</span>
+                  </div>
+                </li>
+              </ol>
+            </div>
+            <p class="copilot-value" data-i18n="copilotValue">
+              Na rotina de QA, acelera o primeiro rascunho de cenários e massas de
+              teste e ajuda a direcionar o troubleshooting em CI/CD — conectando
+              Python, Robot Framework, Cypress, BDD e testes de API.
+            </p>
+            <p class="project-note copilot-note" data-i18n="copilotBoundary">
+              PoC baseada em regras, sem LLM ou chamadas externas. As sugestões
+              exigem revisão humana; use apenas logs sanitizados e dados sintéticos.
+            </p>
+          </div>
+          <div class="project-aside">
+            <p class="aside-label" data-i18n="copilotStatsLabel">QA COPILOT SKILL · EM RESUMO</p>
+            <div class="project-stat">
+              <strong>03</strong>
+              <span data-i18n="copilotStatModules">módulos de QA</span>
+            </div>
+            <div class="project-stat">
+              <strong>0</strong>
+              <span data-i18n="copilotStatCalls">chamadas externas</span>
+            </div>
+            <div class="project-stat">
+              <strong>100%</strong>
+              <span data-i18n="copilotStatLocal">execução local</span>
+            </div>
+            <div class="aside-decoration" aria-hidden="true">{ local }</div>
+          </div>
+        </article>
 
         <article class="project-card">
           <div class="project-main">
@@ -381,7 +470,7 @@
             </div>
           </div>
         </article>
-        <p class="project-note" data-i18n="projectNote">O portfólio é público: qualquer pessoa pode consultar o escopo, os frameworks, as configurações, a cobertura e o formato dos relatórios. Código-fonte, execuções da CI e artefatos brutos permanecem privados. É possível solicitar uma demonstração guiada sem acesso ao repositório; no GitHub, permissão de leitura também permite clonar. Nenhuma credencial é exibida.</p>
+        <p class="project-note" data-i18n="projectNote">A PoC QA Copilot Skill e os exemplos incluídos usam apenas regras locais e dados sintéticos; não usam LLM nem enviam dados externos. As demais suítes, execuções da CI e artefatos brutos permanecem privados. Todas as sugestões exigem revisão humana; nenhuma credencial é exibida.</p>
       </section>
 
       <section class="contact section-shell" id="contato" aria-labelledby="contact-title">

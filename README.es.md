@@ -1,12 +1,22 @@
 # Portafolio de Eduardo Souza
 
-Sitio personal estático creado con HTML, CSS y JavaScript. Presenta competencias de QA y automatización, configuración de Playwright/BDD, Cypress y Robot Framework, y un selector de portugués, inglés y español.
+Sitio personal estático creado con HTML, CSS y JavaScript. La página principal prioriza el perfil profesional, la experiencia corporativa y las competencias técnicas antes de los proyectos personales de QA y automatización. Está disponible en portugués, inglés y español.
 
 La página `resume.html` muestra el currículum completo, sigue el idioma seleccionado y permite imprimirlo o guardarlo como PDF.
 
+## QA Copilot Skill — PoC offline
+
+Prueba de concepto en Python para borradores BDD/Gherkin, análisis heurístico de logs de automatización y generación de payloads sintéticos desde contratos JSON. No usa LLM, servicios externos ni dependencias de terceros. La guía detallada, los ejemplos y las pruebas están en la [carpeta de la PoC](./qa-copilot-skill/README.md).
+
+```powershell
+Set-Location .\qa-copilot-skill
+python -m qa_copilot_skill.cli demo
+python -m unittest discover -s tests -v
+```
+
 **Idiomas de esta página:** [Português](README.md) · [English](README.en.md) · [Español](README.es.md)
 
-## Proyectos destacados
+## Proyectos personales complementarios
 
 Cualquier visitante puede consultar en el portafolio el alcance, los
 frameworks, las configuraciones, la cobertura y los formatos de los informes.

@@ -1,0 +1,2 @@
+[error] CypressError: Timed out retrying after 4000ms: Expected to find element: '[data-test="confirm"]', but never found it.
+    at Context.eval (cypress/e2e/checkout.cy.js:18:10)

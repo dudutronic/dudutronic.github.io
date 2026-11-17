@@ -1,13 +1,26 @@
 # Portfólio — Eduardo Souza
 
-Site pessoal estático em HTML, CSS e JavaScript, sem dependências de build. O
-portfólio apresenta competências de QA e automação, com detalhes de configuração
-dos projetos Playwright/BDD, Cypress e Robot Framework. A interface pode ser
-alternada entre português, inglês e espanhol. A página `resume.html` apresenta
-o currículo completo, acompanha o idioma selecionado e permite imprimir ou
-salvar uma cópia em PDF.
+Site pessoal estático em HTML, CSS e JavaScript, sem dependências de build. A
+home prioriza o resumo profissional, a experiência corporativa, as competências
+técnicas e, em seguida, os projetos pessoais de QA e automação. A interface
+pode ser alternada entre português, inglês e espanhol. A página `resume.html`
+apresenta o currículo completo, acompanha o idioma selecionado e permite
+imprimir ou salvar uma cópia em PDF.
 
-## Projetos em destaque
+## QA Copilot Skill — PoC offline
+
+A PoC em Python demonstra rascunhos BDD/Gherkin, troubleshooting heurístico de
+logs e geração de payloads sintéticos por contrato JSON. Não usa LLM, serviços
+externos ou dependências Python de terceiros. O guia, os exemplos e os testes
+estão em [`qa-copilot-skill/`](./qa-copilot-skill/README.md).
+
+```powershell
+Set-Location .\qa-copilot-skill
+python -m qa_copilot_skill.cli demo
+python -m unittest discover -s tests -v
+```
+
+## Projetos pessoais complementares
 
 Qualquer visitante pode explorar o escopo, frameworks, configurações, cobertura
 e formatos dos relatórios no próprio portfólio. Os repositórios, as execuções da

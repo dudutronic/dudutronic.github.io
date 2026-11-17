@@ -1,12 +1,22 @@
 # Eduardo Souza Portfolio
 
-Static personal website built with HTML, CSS and JavaScript. It presents QA and automation skills, setup details for Playwright/BDD, Cypress and Robot Framework, and a Portuguese/English/Spanish language selector.
+Static personal website built with HTML, CSS and JavaScript. The home page prioritizes the professional summary, corporate experience and technical skills before personal QA automation projects. It supports Portuguese, English and Spanish.
 
 The `resume.html` page presents the full resume, follows the selected site language, and can be printed or saved as a PDF.
 
+## QA Copilot Skill — offline PoC
+
+A Python proof of concept for BDD/Gherkin drafts, heuristic automation-log troubleshooting and synthetic API payloads from JSON contracts. It uses no LLM, external service or third-party Python dependency. The detailed guide, examples and tests are in the [PoC folder](./qa-copilot-skill/README.md).
+
+```powershell
+Set-Location .\qa-copilot-skill
+python -m qa_copilot_skill.cli demo
+python -m unittest discover -s tests -v
+```
+
 **Languages for this page:** [Português](README.md) · [English](README.en.md) · [Español](README.es.md)
 
-## Featured projects
+## Complementary personal projects
 
 Anyone can explore each suite's scope, frameworks, configuration, coverage, and report formats on the portfolio. The repositories, CI runs, and raw artifacts remain private. The site does not grant repository read access: on GitHub, that permission also allows cloning. Visitors can request a guided walkthrough without source access. No credentials are shown.
 

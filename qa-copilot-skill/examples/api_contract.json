@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "required": ["customerId", "fullName", "email", "status", "balance", "active", "tags"],
+  "properties": {
+    "customerId": {
+      "type": "string",
+      "example": "cus_qa_1042"
+    },
+    "fullName": {
+      "type": "string",
+      "example": "Ana QA"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["ACTIVE", "PENDING"]
+    },
+    "balance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5000
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["mobile", "api", "web"]
+      }
+    }
+  }
+}
