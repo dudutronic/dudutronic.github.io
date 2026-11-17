@@ -18,7 +18,7 @@ python -m unittest discover -s tests -v
 
 ## Complementary personal projects
 
-Each project card opens a page with a narrated video, an explanation of the test flow and run commands. The Playwright page also includes a video walkthrough of its GitHub Actions CI/CD pipeline. Where native browser recording did not capture the interface, real page screenshots illustrate the steps; the displayed results come from test runs.
+Each project card opens a page with a narrated video, an explanation of the test flow and run commands. The QA Copilot video executes CLI commands and shows their real terminal output. The CI/CD video records actual GitHub Actions run #4 on `main`: typecheck passed, 2 scenarios and 6 steps passed, and the `relatorios-bdd-4` artifact was uploaded. Playwright and Cypress browser demos use real page screenshots where native recording did not capture the interface.
 
 The repositories, CI runs, and raw artifacts remain private. The site does not grant repository read access: on GitHub, that permission also allows cloning. Visitors can request a guided walkthrough without source access. No credentials are shown.
 

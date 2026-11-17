@@ -12,8 +12,9 @@ const projectCopy = {
     executionEyebrow: "EXECUÇÃO",
     executionTitle: "Como executar",
     ciEyebrow: "INTEGRAÇÃO CONTÍNUA",
-    ciTitle: "Passo a passo da esteira CI/CD",
+    ciTitle: "Execução real da esteira CI/CD",
     ciBadge: "GITHUB ACTIONS",
+    ciRunLink: "Abrir execução real no GitHub Actions ↗",
     accessNote: "Os repositórios de automação são privados. Para conversar sobre o projeto ou solicitar acesso, entre em contato.",
     contactLink: "Falar sobre o projeto",
     notFoundTitle: "Projeto não encontrado",
@@ -24,8 +25,8 @@ const projectCopy = {
         eyebrow: "PROJETO 01 · FERRAMENTA LOCAL DE QA",
         summary: "Uma prova de conceito em Python que apoia atividades de qualidade usando regras locais e dados sintéticos, sem enviar informações para serviços externos.",
         tags: ["Python", "BDD / Gherkin", "Análise de logs", "Payloads JSON", "Offline"],
-        videoTitle: "Demonstração da skill local",
-        videoNote: "Demonstração narrada do CLI: os exemplos usam requisitos, logs e contratos sintéticos; as sugestões precisam de revisão humana.",
+        videoTitle: "Execução prática da skill local",
+        videoNote: "Acompanhe os comandos do CLI sendo executados, com a saída real do terminal e narração etapa por etapa. Os exemplos usam dados sintéticos.",
         flow: [
           "Recebe uma história de usuário e sugere cenários BDD em Dado / Quando / Então.",
           "Compara mensagens de um log sintético com assinaturas locais e aponta hipóteses para investigação.",
@@ -70,7 +71,7 @@ const projectCopy = {
             "A esteira verifica os tipos. Em push ou pull request executa bdd:smoke; na execução manual usa a tag escolhida.",
             "Ao final, baixe o artefato relatorios-bdd-* na página da execução para consultar relatórios e evidências."
           ],
-          note: "O vídeo explica o workflow existente e os checks foram validados localmente: typecheck passou e o smoke concluiu 2 cenários e 6 steps. A demonstração não dispara uma execução remota. Para cenários @credenciais, configure TEST_EMAIL e TEST_PASSWORD como GitHub Secrets; nunca grave valores nos logs."
+          note: "Este vídeo acompanha a execução real #4 do GitHub Actions na branch main, disparada manualmente com @smoke e concluída com sucesso: typecheck aprovado, 2 cenários e 6 steps aprovados, artefato relatorios-bdd-4 publicado. O smoke usou somente páginas públicas, sem credenciais. Acesse o run real pelo link abaixo; o GitHub pode pedir login."
         }
       },
       "cypress-e2e": {
@@ -129,8 +130,9 @@ const projectCopy = {
     executionEyebrow: "EXECUTION",
     executionTitle: "How to run",
     ciEyebrow: "CONTINUOUS INTEGRATION",
-    ciTitle: "CI/CD pipeline walkthrough",
+    ciTitle: "Actual CI/CD pipeline run",
     ciBadge: "GITHUB ACTIONS",
+    ciRunLink: "Open the real GitHub Actions run ↗",
     accessNote: "The automation repositories are private. Contact me to discuss the project or request access.",
     contactLink: "Discuss this project",
     notFoundTitle: "Project not found",
@@ -141,8 +143,8 @@ const projectCopy = {
         eyebrow: "PROJECT 01 · LOCAL QA TOOL",
         summary: "A Python proof of concept that supports quality work with local rules and synthetic data, without sending information to external services.",
         tags: ["Python", "BDD / Gherkin", "Log analysis", "JSON payloads", "Offline"],
-        videoTitle: "Local skill walkthrough",
-        videoNote: "Narrated CLI demo using synthetic requirements, logs and contracts. Suggestions require human review.",
+        videoTitle: "Practical local skill execution",
+        videoNote: "Watch the CLI commands execute, with real terminal output and step-by-step narration using synthetic data.",
         flow: [
           "Takes a user story and suggests BDD scenarios in Given / When / Then.",
           "Matches messages from a synthetic log against local signatures and suggests investigation paths.",
@@ -187,7 +189,7 @@ const projectCopy = {
             "The pipeline type-checks the code. Push and pull request runs execute bdd:smoke; manual runs use the selected tag.",
             "Download the relatorios-bdd-* artifact from the run page to inspect reports and evidence."
           ],
-          note: "The video explains the existing workflow, and its checks were validated locally: typecheck passed and smoke completed 2 scenarios and 6 steps. This demo does not trigger a remote run. For @credenciais scenarios, configure TEST_EMAIL and TEST_PASSWORD as GitHub Secrets; never print their values in logs."
+          note: "This video follows actual GitHub Actions run #4 on main, manually triggered with @smoke and completed successfully: typecheck passed, 2 scenarios and 6 steps passed, and relatorios-bdd-4 was uploaded. The smoke used public pages only and needed no credentials. Open the real run below; GitHub may require sign-in."
         }
       },
       "cypress-e2e": {
@@ -246,8 +248,9 @@ const projectCopy = {
     executionEyebrow: "EJECUCIÓN",
     executionTitle: "Cómo ejecutar",
     ciEyebrow: "INTEGRACIÓN CONTINUA",
-    ciTitle: "Guía de la canalización CI/CD",
+    ciTitle: "Ejecución real del CI/CD",
     ciBadge: "GITHUB ACTIONS",
+    ciRunLink: "Abrir la ejecución real en GitHub Actions ↗",
     accessNote: "Los repositorios de automatización son privados. Contáctame para conversar sobre el proyecto o solicitar acceso.",
     contactLink: "Consultar sobre el proyecto",
     notFoundTitle: "Proyecto no encontrado",
@@ -258,8 +261,8 @@ const projectCopy = {
         eyebrow: "PROYECTO 01 · HERRAMIENTA LOCAL DE QA",
         summary: "Prueba de concepto en Python que ayuda en tareas de calidad con reglas locales y datos sintéticos, sin enviar información a servicios externos.",
         tags: ["Python", "BDD / Gherkin", "Análisis de logs", "Payloads JSON", "Offline"],
-        videoTitle: "Recorrido de la skill local",
-        videoNote: "Demostración narrada del CLI con requisitos, logs y contratos sintéticos. Las sugerencias requieren revisión humana.",
+        videoTitle: "Ejecución práctica de la skill local",
+        videoNote: "Mira cómo se ejecutan los comandos del CLI, con salida real del terminal y narración paso a paso usando datos sintéticos.",
         flow: [
           "Recibe una historia de usuario y sugiere escenarios BDD en Dado / Cuando / Entonces.",
           "Compara mensajes de un log sintético con firmas locales y propone líneas de investigación.",
@@ -304,7 +307,7 @@ const projectCopy = {
             "La canalización verifica tipos. En push o pull request ejecuta bdd:smoke; manualmente usa la etiqueta elegida.",
             "Descarga el artefacto relatorios-bdd-* de la ejecución para consultar informes y evidencias."
           ],
-          note: "El vídeo explica el workflow existente y los checks se validaron localmente: typecheck aprobado y smoke con 2 escenarios y 6 steps. Esta demostración no inicia una ejecución remota. Para @credenciais, configura TEST_EMAIL y TEST_PASSWORD como GitHub Secrets; nunca muestres sus valores en logs."
+          note: "Este vídeo muestra la ejecución real #4 de GitHub Actions en main, iniciada manualmente con @smoke y completada correctamente: typecheck aprobado, 2 escenarios y 6 pasos aprobados, y artefacto relatorios-bdd-4 publicado. El smoke usó solo páginas públicas, sin credenciales. Abre la ejecución real abajo; GitHub puede solicitar inicio de sesión."
         }
       },
       "cypress-e2e": {
@@ -470,6 +473,7 @@ function renderProject(language) {
       ciEyebrow: copy.ciEyebrow,
       ciTitle: copy.ciTitle,
       ciBadge: copy.ciBadge,
+      ciRunLink: copy.ciRunLink,
       ciDescription: project.ci.description,
       ciNote: project.ci.note
     })) {

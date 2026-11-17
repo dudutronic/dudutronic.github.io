@@ -19,11 +19,12 @@ python -m unittest discover -s tests -v
 ## Proyectos personales complementarios
 
 Cada tarjeta abre una página con un vídeo narrado, la explicación del flujo de
-pruebas y los comandos de ejecución. La página de Playwright también incluye un
-recorrido en vídeo de su canalización CI/CD de GitHub Actions. Cuando la
-grabación nativa del navegador no capturó la interfaz, se usan capturas reales
-de la página para ilustrar los pasos; los resultados mostrados proceden de las
-ejecuciones de pruebas.
+pruebas y los comandos de ejecución. El vídeo de QA Copilot ejecuta comandos
+del CLI y muestra la salida real del terminal. El vídeo CI/CD registra la
+ejecución real #4 de GitHub Actions en `main`: typecheck aprobado, 2 escenarios
+y 6 pasos aprobados, y artefacto `relatorios-bdd-4` publicado. Las demos de
+navegador de Playwright y Cypress usan capturas reales de la página cuando la
+grabación nativa no captura la interfaz.
 
 Los repositorios, las ejecuciones de CI y los artefactos originales permanecen
 privados. El sitio no concede acceso de lectura a los repositorios: en GitHub,
